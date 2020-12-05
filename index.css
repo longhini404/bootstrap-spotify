@@ -61,7 +61,7 @@
 
 /* Content */
 .bg-menu {
-  background-color: #222326;
+  background-color: #1b1b1b;
 }
 
 .text-black {
@@ -99,7 +99,7 @@ a {
 }
 
 a:hover {
-  color: #1db954;
+  color: #1db954 !important;
   text-decoration: none;
 }
 
@@ -107,4 +107,10 @@ a:hover {
 li :hover {
   color: #1db954 !important;
   text-decoration: none;
+}
+
+.circle-icon {
+  background: #222326;
+  padding: 15px;
+  border-radius: 100%;
 }
