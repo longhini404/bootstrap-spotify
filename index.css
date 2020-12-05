@@ -3,6 +3,39 @@
   color: #fff;
 }
 
+.bg-blue {
+  position: relative;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#212c39),
+    color-stop(50%, #121e3d),
+    to(#000)
+  );
+  background-image: linear-gradient(#212c39, #121e3d 50%, #000);
+  background-repeat: no-repeat;
+}
+
+.bg-cover {
+  background-color: #a0c3d2 !important;
+  padding-top: 6rem;
+  color: #000;
+}
+
+.text-cover {
+  padding-top: 10rem;
+  padding-left: 4rem;
+  font-weight: bold;
+}
+
+.description-cover {
+  padding-bottom: 10rem;
+  padding-left: 4rem;
+  font-weight: 400;
+  font-size: 24px;
+}
+
 .navbar-light .navbar-toggler {
   border-color: #fff;
 }
