@@ -1,8 +1,25 @@
+/* Header */
 .bg-black {
   background-color: #000 !important;
   color: #fff;
 }
 
+.navbar-light .navbar-toggler {
+  border-color: #fff;
+}
+.navbar-toggler {
+  background-color: #fff;
+}
+
+.nav-link:hover {
+  color: #1db954 !important;
+}
+
+.dropdown-item:hover {
+  color: #1db954 !important;
+}
+
+/* Cover */
 .bg-blue {
   position: relative;
   background-image: -webkit-gradient(
@@ -36,17 +53,17 @@
   font-size: 24px;
 }
 
-.navbar-light .navbar-toggler {
-  border-color: #fff;
-}
-.navbar-toggler {
-  background-color: #fff;
-}
-
-.nav-link:hover {
-  color: #1db954 !important;
+/* Menu */
+.menu-profile-picture{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
-.dropdown-item:hover {
-  color: #1db954 !important;
+/* Content */
+.bg-menu {
+  background-color: #222326;
+}
+
+.text-black {
+  color: #000;
 }
