@@ -22,7 +22,7 @@ try {
         $_SESSION['mensagem'] = "Perfil salvo";
     }
 } catch (Exception $e) {
-    $_SESSION['mensagem'] = "Idade Inválida";
+    $_SESSION['mensagem'] = "Data de nascimento inválida";
 }
 
 header("Location: editar-perfil.php");
