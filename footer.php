@@ -1,14 +1,14 @@
 <footer class="page-footer bg-black color-white pt-5">
   <div class="container">
     <div class="row">
-      <div class="col-2 mt-4">
+      <div class="col-2 mt-5">
         <a href="https://www.spotify.com/br/">
           <img src="assets/brand/spotify-logo-branca.png" width="132" height="40" class="d-inline-block align-top mr-auto" alt="spotify Logo Branca" />
         </a>
       </div>
 
       <div class="col-2">
-        <p class="text-muted mt-4 mb-4" style="font-size: small;"><strong>EMPRESA</strong></p>
+        <p class="text-muted mt-5 mb-4" style="font-size: small;"><strong>EMPRESA</strong></p>
         <ul class="list-unstyled">
           <li class="pb-3">
             <a class="text-white" href="https://www.spotify.com/br/about-us/contact/">Sobre</a>
@@ -23,7 +23,7 @@
       </div>
 
       <div class="col-2">
-        <p class="text-muted mt-4 mb-4" style="font-size: small;"><strong>COMUNIDADES</strong></p>
+        <p class="text-muted mt-5 mb-4" style="font-size: small;"><strong>COMUNIDADES</strong></p>
         <ul class="list-unstyled">
           <li class="pb-3">
             <a class="text-white" href="https://artists.spotify.com/?_ga=2.136255665.1032510707.1607106675-762130387.1599533115">Para Artistas</a>
@@ -44,7 +44,7 @@
       </div>
 
       <div class="col-2">
-        <p class="text-muted mt-4 mb-4" style="font-size: small;"><strong>LINKS ÚTEIS</strong></p>
+        <p class="text-muted mt-5 mb-4" style="font-size: small;"><strong>LINKS ÚTEIS</strong></p>
         <ul class="list-unstyled">
           <li class="pb-3">
             <a class="text-white" href="https://support.spotify.com/br/?_ga=2.237360256.1032510707.1607106675-762130387.1599533115">Suporte</a>
@@ -64,18 +64,18 @@
       <div class="col-4 pt-4" style="text-align: right;">
         <ul class="list-unstyled list-inline">
           <li class="list-inline-item">
-            <a class="btn-floating btn-fb text-white px-2" href="https://instagram.com/spotify">
-              <i class="fab fa-instagram fa-2x social-media-icon"> </i>
+            <a class="btn-floating btn-fb text-white" href="https://instagram.com/spotify">
+              <i class="fab fa-instagram social-media-icon"> </i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="btn-floating btn-tw text-white px-2" href="https://twitter.com/spotify">
-              <i class="fab fa-twitter fa-2x social-media-icon"> </i>
+            <a class="btn-floating btn-tw text-white" href="https://twitter.com/spotify">
+              <i class="fab fa-twitter social-media-icon"> </i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="btn-floating btn-gplus text-white px-2" href="https://www.facebook.com/Spotify">
-              <i class="fab fa-facebook fa-2x social-media-icon"> </i>
+            <a class="btn-floating btn-gplus text-white" href="https://www.facebook.com/Spotify">
+              <i class="fab fa-facebook social-media-icon"> </i>
             </a>
           </li>
         </ul>
