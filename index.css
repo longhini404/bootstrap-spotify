@@ -255,8 +255,8 @@ a:hover {
 
 /* Loading Modal */
 div.spinner-border.text-success {
-  width: 20rem;
-  height: 20rem;
+  width: 10rem;
+  height: 10rem;
 }
 
 .modal-content {
