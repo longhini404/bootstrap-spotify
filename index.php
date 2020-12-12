@@ -126,7 +126,7 @@
           <!-- Content -->
           <div class="col-9 bg-white p-4">
             <div class="container">
-              <p class="pt-4 text-black fw-bold fs-1">
+              <p class="text-black fw-bold fs-1 pt-4">
                 Visão geral da conta
               </p>
               <div class="col">
@@ -157,14 +157,14 @@
               <a type="button" href="https://www.spotify.com/br/account/profile/" class="btn btn-outline-secondary btn-lg btn-index-spotify">
                 EDITAR PERFIL
               </a>
-              <p class="pb-2 text-black fw-bold fs-4" style="padding-top: 4rem">
+              <p class="text-black fw-bold fs-4 pb-2" style="padding-top: 4rem">
                 Seu Plano
               </p>
               <div class="card">
                 <div class="container bg-card">
                   <div class="row">
                     <div class="col-6">
-                      <p class="pt-5 pb-5 fw-bold fs-1" style="padding-top: 4rem">
+                      <p class="fw-bold pt-5 pb-5 fs-1" style="padding-top: 4rem">
                         Spotify Premium Família
                       </p>
                     </div>
@@ -192,7 +192,7 @@
               <a type="button" href="https://www.spotify.com/br/account/profile/" class="btn btn-outline-secondary btn-lg btn-index-spotify mt-4">
                 MUDAR DE PLANO
               </a>
-              <p class="pb-2 text-black fw-bold fs-4" style="padding-top: 4rem">
+              <p class="text-black fw-bold fs-4 pb-2" style="padding-top: 4rem">
                 Saia em qualquer lugar
               </p>
               <p>
