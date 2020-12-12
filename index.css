@@ -108,8 +108,9 @@ li :hover {
 
 .social-media-icon {
   background: #222326;
-  padding: 14px;
   border-radius: 100%;
+  font-size: 1.8rem;
+  padding: 14px;
 }
 
 .copyright:hover {
