@@ -132,7 +132,7 @@
               <form action="edit.php" method="post">
                 <div class="mb-3">
                   <label for="email" class="form-label small-text fw-bold">E-mail</label>
-                  <input type="email" class="form-control form-select-lg" id="email" name="email" required value="<?php echo $_SESSION['email'] ?>">
+                  <input type="email" class="form-control form-select-lg" id="email" name="email" required value="<?php echo empty($_SESSION['email']) ? "" : $_SESSION['email'] ?>">
                 </div>
                 <div class="mb-3">
                   <label for="password" class="form-label fw-bold">Senha</label>
@@ -141,6 +141,7 @@
                 <div class="mb-3">
                   <label for="sex" class="form-label fw-bold">Sexo</label>
                   <select class="form-select form-select-lg mb-3" name="sex" aria-label=".form-select-lg example">
+                    <?php if (empty($_SESSION['sex'])) $_SESSION['sex'] = ""; ?>
                     <option value="Masculino" <?= ($_SESSION['sex'] == "Masculino") ? 'selected' : '' ?>>Masculino</option>
                     <option value="Feminino" <?= ($_SESSION['sex'] == "Feminino") ? 'selected' : '' ?>>Feminino</option>
                     <option value="Outro" <?= ($_SESSION['sex'] == "Outro") ? 'selected' : '' ?>>Outro</option>
@@ -150,10 +151,11 @@
                   <label class="form-label fw-bold">Data de nascimento</label>
                   <div class="row">
                     <div class="col-4">
-                      <input type="day" class="form-control form-control-lg" id="day" name="day" value="<?php echo $_SESSION['day'] ?>" required>
+                      <input type="day" class="form-control form-control-lg" id="day" name="day" value="<?php echo empty($_SESSION['day']) ? "" : $_SESSION['day'] ?>" required>
                     </div>
                     <div class="col-4">
                       <select class="form-select form-select-lg mb-3" name="month" aria-label=".form-select-lg example" required>
+                        <?php if (empty($_SESSION['month'])) $_SESSION['month'] = ""; ?>
                         <option value="01" <?= ($_SESSION['month'] == 1) ? 'selected' : '' ?>>Janeiro</option>
                         <option value="02" <?= ($_SESSION['month'] == 2) ? 'selected' : '' ?>>Fevereiro</option>
                         <option value="03" <?= ($_SESSION['month'] == 3) ? 'selected' : '' ?>>Março</option>
@@ -169,14 +171,15 @@
                       </select>
                     </div>
                     <div class="col-4">
-                      <input type="year" class="form-control form-control-lg" id="year" name="year" value="<?php echo $_SESSION['year'] ?>" required>
+                      <input type="year" class="form-control form-control-lg" id="year" name="year" value="<?php echo empty($_SESSION['year']) ? "" : $_SESSION['year'] ?>" required>
                     </div>
                   </div>
                 </div>
                 <div class="mb-3">
                   <label for="country" class="form-label fw-bold">País ou região</label>
                   <select class="form-select form-select-lg mb-3" name="country" aria-label=".form-select-lg example" aria-describedby="help" required disabled>
-                    <option value="Brasil" <?= ($_SESSION['country'] == "Brasil") ? 'selected' : '' ?>>Brasil</option>
+                    <?php if (empty($_SESSION['country'])) $_SESSION['country'] = ""; ?>
+                    <option value="Brasil" <?= ($_SESSION['country'] == "Brasil") ? "" : "" ?>>Brasil</option>
                   </select>
                   <div id="help" class="form-text">Saiba mais sobre <a class="text-reset" href="https://support.spotify.com/br/article/How-can-I-change-my-country-setting/?_ga=2.249898694.1160102590.1607703372-762130387.1599533115">como mudar seu país ou região.</a></div>
                 </div>
