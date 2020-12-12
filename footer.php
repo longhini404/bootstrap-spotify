@@ -82,7 +82,7 @@
       </div>
     </div>
 
-    <div class="list-unstyled list-inline pb-4" style="padding-top: 6rem; font-size: smaller;">
+    <div class="list-unstyled list-inline pb-2" style="padding-top: 6rem; font-size: smaller;">
       <div class="row">
         <div class="col-10">
           <li class="list-inline-item">

@@ -73,7 +73,7 @@
 }
 
 .text-menu {
-  padding: 1.5rem;
+  padding: 1.4rem;
   font-weight: 500;
 }
 
@@ -119,7 +119,7 @@ li:hover {
 
 /* Form */
 label {
-  font-size: small;
+  font-size: 14px;
 }
 
 /* Buttons */

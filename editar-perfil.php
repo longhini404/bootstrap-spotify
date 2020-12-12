@@ -109,7 +109,7 @@
           <!-- Form -->
           <div class="col-9 bg-white p-4">
             <div class="container">
-              <p class="text-black fw-bold py-3" style="font-size: 3rem;">
+              <p class="text-black fw-bold py-2" style="font-size: 3rem;">
                 Editar perfil
               </p>
 
@@ -131,7 +131,7 @@
 
               <form action="edit.php" method="post">
                 <div class="mb-4">
-                  <label for="email" class="form-label small-text fw-bold">E-mail</label>
+                  <label for="email" class="form-label fw-bold">E-mail</label>
                   <input type="email" class="form-control form-select-lg" id="email" name="email" required value="<?php echo empty($_SESSION['email']) ? "" : $_SESSION['email'] ?>">
                 </div>
                 <div class="mb-4">
