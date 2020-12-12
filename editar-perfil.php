@@ -129,14 +129,14 @@
                 <?php unset($_SESSION['mensagem_erro']) ?>
               <?php } ?>
 
-              <form id="myForm" action="edit.php" method="post">
-                <div class="mb-4">
+              <form id="myForm" action="edit.php" method="post" class="needs-validation">
+                <div class="col mb-4">
                   <label for="email" class="form-label fw-bold">E-mail</label>
-                  <input type="email" class="form-control form-select-lg" id="email" name="email" required value="<?php echo empty($_SESSION['email']) ? "" : $_SESSION['email'] ?>">
+                  <input type="email" class="form-control form-control-lg" id="email" name="email" value="<?php echo empty($_SESSION['email']) ? "" : $_SESSION['email'] ?>" required>
                 </div>
                 <div class="mb-4">
                   <label for="password" class="form-label fw-bold">Senha</label>
-                  <input type="password" class="form-control form-select-lg" id="password" name="password" disabled>
+                  <input type="password" class="form-control form-control-lg" id="password" name="password" disabled>
                 </div>
                 <div class="mb-4">
                   <label for="sex" class="form-label fw-bold">Sexo</label>
@@ -151,7 +151,7 @@
                   <label class="form-label fw-bold">Data de nascimento</label>
                   <div class="row">
                     <div class="col-4">
-                      <input type="day" class="form-control form-control-lg" id="day" name="day" value="<?php echo empty($_SESSION['day']) ? "" : $_SESSION['day'] ?>" required>
+                      <input type="text" class="form-control form-control-lg" id="day" name="day" value="<?php echo empty($_SESSION['day']) ? "" : $_SESSION['day'] ?>" required>
                     </div>
                     <div class="col-4">
                       <select class="form-select form-select-lg mb-3" name="month" aria-label=".form-select-lg example" required>
@@ -171,7 +171,7 @@
                       </select>
                     </div>
                     <div class="col-4">
-                      <input type="year" class="form-control form-control-lg" id="year" name="year" value="<?php echo empty($_SESSION['year']) ? "" : $_SESSION['year'] ?>" required>
+                      <input type="text" class="form-control form-control-lg" id="year" name="year" value="<?php echo empty($_SESSION['year']) ? "" : $_SESSION['year'] ?>" required>
                     </div>
                   </div>
                 </div>
@@ -220,10 +220,6 @@
   <!-- Footer -->
   <?php include 'footer.php' ?>
   <!-- / Footer -->
-
-  <script language="javascript">
-
-  </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/446e1edcd2.js" crossorigin="anonymous"></script>
