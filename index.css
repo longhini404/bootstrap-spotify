@@ -23,6 +23,10 @@
   color: #1db954 !important;
 }
 
+.navbar {
+  padding-top: unset;
+}
+
 /* Cover */
 .bg-blue {
   position: relative;
@@ -44,7 +48,7 @@
 }
 
 .text-cover {
-  padding-top: 6.5rem;
+  padding-top: 7rem;
   padding-left: 4rem;
   font-weight: bold;
 }
