@@ -1,5 +1,7 @@
 <?php
 
+sleep(3);
+
 session_start();
 
 $day = $_POST['day'];
