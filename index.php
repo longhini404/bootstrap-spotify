@@ -22,8 +22,10 @@
   <div class="bg-blue">
     <!-- Cover -->
     <section>
-      <div class="container bg-cover">
-        <h1 class="text-cover">Premium Família</h1>
+      <div class="container bg-cover pt-5">
+        <p class="text-cover fs-1">
+          Premium Família
+        </p>
         <div class="row">
           <div class="col-8">
             <p class="lead description-cover">
@@ -40,6 +42,7 @@
     <section>
       <div class="container">
         <div class="row">
+          <!-- Menu -->
           <div class="col-3 bg-menu">
             <div class="row justify-content-center">
               <div class="col-4">
@@ -118,7 +121,9 @@
               </table>
             </div>
           </div>
+          <!-- / Menu -->
 
+          <!-- Content -->
           <div class="col-9 bg-white p-4">
             <div class="container">
               <p class="text-black fw-bold fs-1">
@@ -128,7 +133,7 @@
                 <p class="text-black fw-bold fs-4">
                   Perfil
                 </p>
-                <table class="table">
+                <table class="table table-account">
                   <tbody>
                     <tr>
                       <td class="text-secondary p-3">Nome do usuário</td>
@@ -149,30 +154,31 @@
                   </tbody>
                 </table>
               </div>
-
               <a type="button" href="https://www.spotify.com/br/account/profile/" class="btn btn-outline-secondary btn-lg btn-index-spotify">
                 EDITAR PERFIL
               </a>
-
-              <h4 class="pb-4 text-black" style="padding-top: 4rem">
-                <strong>Seu Plano</strong>
-              </h4>
+              <p class="pb-4 text-black fw-bold fs-4" style="padding-top: 4rem">
+                Seu Plano
+              </p>
               <div class="card">
                 <div class="container bg-card">
                   <div class="row">
                     <div class="col-6">
-                      <h1 class="text-card">Spotify Premium Família</h1>
+                      <h1 class="text-"></h1>
+                      <p class="pb-4 fw-bold fs-1" style="padding-top: 4rem">
+                        Spotify Premium Família
+                      </p>
                     </div>
                   </div>
                 </div>
                 <div class="card-body">
                   <div class="row">
                     <div class="col-6">
-                      <p class="card-text text-black">
+                      <p class="text-black">
                         Até 6 contas Premium individuais para pessoas que
                         moram juntas.
                       </p>
-                      <a href="">SAIBA MAIS</a>
+                      <a href="https://support.spotify.com/br/article/premium-family/?_ga=2.15517558.1160102590.1607703372-762130387.1599533115">SAIBA MAIS</a>
                     </div>
                     <div class="col">
                       <div class="card">
@@ -187,10 +193,9 @@
               <a type="button" href="https://www.spotify.com/br/account/profile/" class="btn btn-outline-secondary btn-lg btn-index-spotify mt-4">
                 MUDAR DE PLANO
               </a>
-
-              <h4 class="pb-4 text-black" style="padding-top: 4rem">
-                <strong>Saia em qualquer lugar</strong>
-              </h4>
+              <p class="pb-4 text-black fw-bold fs-4" style="padding-top: 4rem">
+                Saia em qualquer lugar
+              </p>
               <p>
                 Saia em tudo que o Spotify estiver aberto, inclusive na Web,
                 no celular, no desktop ou em qualquer outro dispositivo.
@@ -208,6 +213,7 @@
               </a>
             </div>
           </div>
+          <!-- Content -->
         </div>
       </div>
     </section>

@@ -40,18 +40,17 @@
 
 .bg-cover {
   background-color: #a0c3d2 !important;
-  padding-top: 4rem;
   color: #000;
 }
 
 .text-cover {
-  padding-top: 6rem;
+  padding-top: 6.5rem;
   padding-left: 4rem;
   font-weight: bold;
 }
 
 .description-cover {
-  padding-bottom: 8rem;
+  padding-bottom: 7.5rem;
   padding-left: 4rem;
   font-weight: 400;
   font-size: 24px;
@@ -85,6 +84,11 @@
   background-color: #1b1b1b;
 }
 
+.table-account td,
+.table-account th {
+  border-top: none;
+}
+
 /* Card */
 .bg-card {
   background-color: #a0c3d2 !important;
@@ -92,10 +96,6 @@
   padding-bottom: 4rem;
   padding-left: 2rem;
   color: #000;
-}
-
-.text-card {
-  font-weight: bold;
 }
 
 /* Footer */
@@ -106,8 +106,17 @@ li :hover {
 
 .social-media-icon {
   background: #222326;
-  padding: 15px;
+  padding: 14px;
   border-radius: 100%;
+}
+
+.copyright:hover {
+  color: #757575 !important;
+}
+
+/* Form */
+label {
+  font-size: small;
 }
 
 /* Buttons */
@@ -201,8 +210,13 @@ li :hover {
   color: #000 !important;
 }
 
+.btn-cancelar {
+  color: #757575;
+  padding: 2rem;
+}
+
 .btn-cancelar:hover {
-  color: #000;
+  color: #000 !important;
 }
 
 /* text */
@@ -211,7 +225,7 @@ li :hover {
 }
 
 .text-muted {
-  color: #919496 !important;
+  color: #757575 !important;
 }
 
 .text-reset {

@@ -1,14 +1,14 @@
-<footer class="page-footer bg-black color-white" style="padding-top: 3rem">
+<footer class="page-footer bg-black color-white pt-5">
   <div class="container">
     <div class="row">
       <div class="col-2 mt-4">
         <a href="https://www.spotify.com/br/">
-          <img src="assets/brand/spotify-logo-branca.png" width="140" height="40" class="d-inline-block align-top mr-auto" alt="spotify Logo Branca" />
+          <img src="assets/brand/spotify-logo-branca.png" width="132" height="40" class="d-inline-block align-top mr-auto" alt="spotify Logo Branca" />
         </a>
       </div>
 
       <div class="col-2">
-        <p class="mt-4 mb-4 text-muted" style="font-size: small;"><strong>EMPRESA</strong></p>
+        <p class="text-muted mt-4 mb-4" style="font-size: small;"><strong>EMPRESA</strong></p>
         <ul class="list-unstyled">
           <li class="pb-3">
             <a class="text-white" href="https://www.spotify.com/br/about-us/contact/">Sobre</a>
@@ -23,7 +23,7 @@
       </div>
 
       <div class="col-2">
-        <p class="mt-4 mb-4 text-muted" style="font-size: small;"><strong>COMUNIDADES</strong></p>
+        <p class="text-muted mt-4 mb-4" style="font-size: small;"><strong>COMUNIDADES</strong></p>
         <ul class="list-unstyled">
           <li class="pb-3">
             <a class="text-white" href="https://artists.spotify.com/?_ga=2.136255665.1032510707.1607106675-762130387.1599533115">Para Artistas</a>
@@ -44,7 +44,7 @@
       </div>
 
       <div class="col-2">
-        <p class="mt-4 mb-4 text-muted" style="font-size: small;"><strong>LINKS ÚTEIS</strong></p>
+        <p class="text-muted mt-4 mb-4" style="font-size: small;"><strong>LINKS ÚTEIS</strong></p>
         <ul class="list-unstyled">
           <li class="pb-3">
             <a class="text-white" href="https://support.spotify.com/br/?_ga=2.237360256.1032510707.1607106675-762130387.1599533115">Suporte</a>
@@ -114,7 +114,7 @@
               Brasil
               <img src="assets/img/Brasil.jpg" width="20" height="20" class="mx-1" alt="Bandeira do Brasil" />
             </p>
-            <p class="text-muted">© 2020 Spotify AB</p>
+            <p class="text-muted copyright">© 2020 Spotify AB</p>
           </li>
         </div>
       </ul>

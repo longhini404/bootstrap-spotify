@@ -25,6 +25,7 @@
     <section>
       <div class="container">
         <div class="row">
+          <!-- / Menu -->
           <div class="col-3 bg-menu">
             <div class="row justify-content-center">
               <div class="col-4">
@@ -103,12 +104,14 @@
               </table>
             </div>
           </div>
+          <!-- / Menu -->
+
+          <!-- Form -->
           <div class="col-9 bg-white p-4">
             <div class="container">
               <p class="py-4 text-black fw-bold fs-1">
                 Editar perfil
               </p>
-
               <?php if (isset($_SESSION['mensagem'])) { ?>
                 <div class="alert alert-warning alert-dismissible fade show" role="alert">
                   <strong><?php echo $_SESSION['mensagem'] ?></strong>
@@ -161,26 +164,27 @@
                   </div>
                 </div>
                 <div class="mb-3">
-                  <label for="country" class="form-label"><strong>País ou região</strong></label>
+                  <label for="country" class="form-label fw-bold">País ou região</label>
                   <select class="form-select form-select-lg mb-3" name="country" aria-label=".form-select-lg example" aria-describedby="help" required disabled>
                     <option value="Brasil" selected>Brasil</option>
                   </select>
                   <div id="help" class="form-text">Saiba mais sobre <a class="text-reset" href="https://support.spotify.com/br/article/How-can-I-change-my-country-setting/?_ga=2.249898694.1160102590.1607703372-762130387.1599533115">como mudar seu país ou região.</a></div>
                 </div>
                 <div class="form-check my-4">
-                  <input class="form-check-input" type="checkbox" value="" id="checkbox" name="checkbox">
+                  <input class="form-check-input" type="checkbox" value="checkbox" id="checkbox" name="checkbox">
                   <label class="form-check-label" for="checkbox">
                     Compartilhar meus dados cadastrais com os provedores de conteúdo do Spotify para fins de marketing.
                   </label>
                 </div>
                 <hr>
                 <div style="margin-bottom: 6rem; text-align: right">
-                  <a href="index.php" role="button" class="btn-cancelar mx-4">Cancelar</a>
+                  <a href="index.php" role="button" class="btn-cancelar mx-4">CANCELAR</a>
                   <button type="submit" class="btn rounded-pill btn-spotify">SALVAR PERFIL</button>
                 </div>
               </form>
             </div>
           </div>
+          <!-- / Form -->
         </div>
       </div>
     </section>
