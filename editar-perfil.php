@@ -112,13 +112,23 @@
               <p class="text-black fw-bold fs-1 py-4">
                 Editar perfil
               </p>
-              <?php if (isset($_SESSION['mensagem'])) { ?>
-                <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                  <strong><?php echo $_SESSION['mensagem'] ?></strong>
+
+              <?php if (isset($_SESSION['mensagem_sucesso'])) { ?>
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                  <strong><?php echo $_SESSION['mensagem_sucesso'] ?></strong>
                   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
-                <?php unset($_SESSION['mensagem']) ?>
+                <?php unset($_SESSION['mensagem_sucesso']) ?>
               <?php } ?>
+
+              <?php if (isset($_SESSION['mensagem_erro'])) { ?>
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                  <strong><?php echo $_SESSION['mensagem_erro'] ?></strong>
+                  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                <?php unset($_SESSION['mensagem_erro']) ?>
+              <?php } ?>
+
               <form action="edit.php" method="post">
                 <div class="mb-3">
                   <label for="email" class="form-label small-text fw-bold">E-mail</label>

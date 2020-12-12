@@ -2,10 +2,6 @@
 
 session_start();
 
-// var_dump($_REQUEST);
-
-// die();
-
 $day = $_POST['day'];
 $month = $_POST['month'];
 $year = $_POST['year'];
@@ -17,12 +13,12 @@ try {
     echo $intervalo->format('%Y anos');
 
     if ($intervalo->format('%Y') < 14) {
-        $_SESSION['mensagem'] = "Menor de idade";
+        $_SESSION['mensagem_erro'] = "Menor de idade";
     } else {
-        $_SESSION['mensagem'] = "Perfil salvo";
+        $_SESSION['mensagem_sucesso'] = "Perfil salvo";
     }
 } catch (Exception $e) {
-    $_SESSION['mensagem'] = "Data de nascimento inválida";
+    $_SESSION['mensagem_erro'] = "Data de nascimento inválida";
 }
 
 header("Location: editar-perfil.php");
