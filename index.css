@@ -101,7 +101,7 @@
 }
 
 /* Footer */
-li :hover {
+li:hover {
   color: #1db954 !important;
   text-decoration: none;
 }
