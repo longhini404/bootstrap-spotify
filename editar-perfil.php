@@ -177,7 +177,7 @@
                   </label>
                 </div>
                 <hr>
-                <div style="margin-bottom: 6rem; text-align: right">
+                <div style="margin-bottom: 7.5rem; text-align: right">
                   <a href="index.php" role="button" class="btn-cancelar mx-4">CANCELAR</a>
                   <button type="submit" class="btn rounded-pill btn-spotify">SALVAR PERFIL</button>
                 </div>
