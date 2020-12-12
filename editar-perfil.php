@@ -132,7 +132,7 @@
               <form action="edit.php" method="post">
                 <div class="mb-3">
                   <label for="email" class="form-label small-text fw-bold">E-mail</label>
-                  <input type="email" class="form-control form-select-lg" id="email" name="email" required value="guilherme.longhini@gmail.com">
+                  <input type="email" class="form-control form-select-lg" id="email" name="email" required value="<?php echo $_SESSION['email'] ?>">
                 </div>
                 <div class="mb-3">
                   <label for="password" class="form-label fw-bold">Senha</label>
@@ -141,42 +141,42 @@
                 <div class="mb-3">
                   <label for="sex" class="form-label fw-bold">Sexo</label>
                   <select class="form-select form-select-lg mb-3" name="sex" aria-label=".form-select-lg example">
-                    <option value="Masculino" selected>Masculino</option>
-                    <option value="Feminino">Feminino</option>
-                    <option value="Não Binário">Não Binário</option>
+                    <option value="Masculino" <?= ($_SESSION['sex'] == "Masculino") ? 'selected' : '' ?>>Masculino</option>
+                    <option value="Feminino" <?= ($_SESSION['sex'] == "Feminino") ? 'selected' : '' ?>>Feminino</option>
+                    <option value="Outro" <?= ($_SESSION['sex'] == "Outro") ? 'selected' : '' ?>>Outro</option>
                   </select>
                 </div>
                 <div class="mb-3">
                   <label class="form-label fw-bold">Data de nascimento</label>
                   <div class="row">
                     <div class="col-4">
-                      <input type="day" class="form-control form-control-lg" id="day" name="day" value="30" required>
+                      <input type="day" class="form-control form-control-lg" id="day" name="day" value="<?php echo $_SESSION['day'] ?>" required>
                     </div>
                     <div class="col-4">
                       <select class="form-select form-select-lg mb-3" name="month" aria-label=".form-select-lg example" required>
-                        <option value="01">Janeiro</option>
-                        <option value="02">Fevereiro</option>
-                        <option value="03" selected>Março</option>
-                        <option value="04">Abril</option>
-                        <option value="05">Maio</option>
-                        <option value="06">Junho</option>
-                        <option value="07">Julho</option>
-                        <option value="08">Agosto</option>
-                        <option value="09">Setembro</option>
-                        <option value="10">Outubro</option>
-                        <option value="11">Novembro</option>
-                        <option value="12">Dezembro</option>
+                        <option value="01" <?= ($_SESSION['month'] == 1) ? 'selected' : '' ?>>Janeiro</option>
+                        <option value="02" <?= ($_SESSION['month'] == 2) ? 'selected' : '' ?>>Fevereiro</option>
+                        <option value="03" <?= ($_SESSION['month'] == 3) ? 'selected' : '' ?>>Março</option>
+                        <option value="04" <?= ($_SESSION['month'] == 4) ? 'selected' : '' ?>>Abril</option>
+                        <option value="05" <?= ($_SESSION['month'] == 5) ? 'selected' : '' ?>>Maio</option>
+                        <option value="06" <?= ($_SESSION['month'] == 6) ? 'selected' : '' ?>>Junho</option>
+                        <option value="07" <?= ($_SESSION['month'] == 7) ? 'selected' : '' ?>>Julho</option>
+                        <option value="08" <?= ($_SESSION['month'] == 8) ? 'selected' : '' ?>>Agosto</option>
+                        <option value="09" <?= ($_SESSION['month'] == 9) ? 'selected' : '' ?>>Setembro</option>
+                        <option value="10" <?= ($_SESSION['month'] == 10) ? 'selected' : '' ?>>Outubro</option>
+                        <option value="11" <?= ($_SESSION['month'] == 11) ? 'selected' : '' ?>>Novembro</option>
+                        <option value="12" <?= ($_SESSION['month'] == 12) ? 'selected' : '' ?>>Dezembro</option>
                       </select>
                     </div>
                     <div class="col-4">
-                      <input type="year" class="form-control form-control-lg" id="year" name="year" value="1999" required>
+                      <input type="year" class="form-control form-control-lg" id="year" name="year" value="<?php echo $_SESSION['year'] ?>" required>
                     </div>
                   </div>
                 </div>
                 <div class="mb-3">
                   <label for="country" class="form-label fw-bold">País ou região</label>
                   <select class="form-select form-select-lg mb-3" name="country" aria-label=".form-select-lg example" aria-describedby="help" required disabled>
-                    <option value="Brasil" selected>Brasil</option>
+                    <option value="Brasil" <?= ($_SESSION['country'] == "Brasil") ? 'selected' : '' ?>>Brasil</option>
                   </select>
                   <div id="help" class="form-text">Saiba mais sobre <a class="text-reset" href="https://support.spotify.com/br/article/How-can-I-change-my-country-setting/?_ga=2.249898694.1160102590.1607703372-762130387.1599533115">como mudar seu país ou região.</a></div>
                 </div>
