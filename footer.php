@@ -61,7 +61,7 @@
         </ul>
       </div>
 
-      <div class="col-4 pt-4" style="text-align: right;">
+      <div class="col-4 mt-5" style="text-align: right;">
         <ul class="list-unstyled list-inline">
           <li class="list-inline-item">
             <a class="btn-floating btn-fb text-white" href="https://instagram.com/spotify">
