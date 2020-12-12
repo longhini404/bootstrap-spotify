@@ -62,8 +62,8 @@
 
 /* Menu */
 .menu-profile-picture {
-  margin-top: 1.4rem;
-  margin-bottom: 1.4rem;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
 }
 
 .table td,
@@ -73,13 +73,13 @@
 }
 
 .text-menu {
-  padding: 1.4rem;
+  padding: 1.5rem;
   font-weight: 500;
 }
 
 .menu-icons {
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: 14px;
+  margin-bottom: 14px;
   margin-right: 18px;
 }
 
