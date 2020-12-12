@@ -193,7 +193,7 @@
                 <hr>
                 <div style="margin-bottom: 7.5rem; text-align: right">
                   <a href="index.php" role="button" class="btn-cancelar mx-4">CANCELAR</a>
-                  <button type="submit" class="btn rounded-pill btn-spotify">SALVAR PERFIL</button>
+                  <button data-bs-toggle="modal" data-bs-target="#loadingModal" type="submit" class="btn rounded-pill btn-spotify">SALVAR PERFIL</button>
                 </div>
               </form>
             </div>
@@ -203,6 +203,18 @@
       </div>
     </section>
     <!-- / Profile -->
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="loadingModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="d-flex justify-content-center">
+          <div class="spinner-border text-success" role="status">
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- Footer -->

@@ -252,3 +252,14 @@ a:hover {
   background-color: #1db954;
   border-color: #1db954;
 }
+
+/* Loading Modal */
+div.spinner-border.text-success {
+  width: 20rem;
+  height: 20rem;
+}
+
+.modal-content {
+  background-color: transparent;
+  border: none;
+}
