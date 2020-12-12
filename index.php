@@ -126,7 +126,7 @@
           <!-- Content -->
           <div class="col-9 bg-white p-4">
             <div class="container">
-              <p class="text-black fw-bold fs-1 pt-4">
+              <p class="text-black fw-bold py-3" style="font-size: 3rem;">
                 Visão geral da conta
               </p>
               <div class="col">
