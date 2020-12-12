@@ -59,7 +59,7 @@
 /* Menu */
 .menu-profile-picture {
   margin-top: 1.6rem;
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.8rem;
 }
 
 .table td,
@@ -92,8 +92,6 @@
 /* Card */
 .bg-card {
   background-color: #a0c3d2 !important;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
   padding-left: 2rem;
   color: #000;
 }

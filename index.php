@@ -157,15 +157,14 @@
               <a type="button" href="https://www.spotify.com/br/account/profile/" class="btn btn-outline-secondary btn-lg btn-index-spotify">
                 EDITAR PERFIL
               </a>
-              <p class="pb-4 text-black fw-bold fs-4" style="padding-top: 4rem">
+              <p class="pb-2 text-black fw-bold fs-4" style="padding-top: 4rem">
                 Seu Plano
               </p>
               <div class="card">
                 <div class="container bg-card">
                   <div class="row">
                     <div class="col-6">
-                      <h1 class="text-"></h1>
-                      <p class="pb-4 fw-bold fs-1" style="padding-top: 4rem">
+                      <p class="pt-5 pb-5 fw-bold fs-1" style="padding-top: 4rem">
                         Spotify Premium Família
                       </p>
                     </div>
@@ -193,7 +192,7 @@
               <a type="button" href="https://www.spotify.com/br/account/profile/" class="btn btn-outline-secondary btn-lg btn-index-spotify mt-4">
                 MUDAR DE PLANO
               </a>
-              <p class="pb-4 text-black fw-bold fs-4" style="padding-top: 4rem">
+              <p class="pb-2 text-black fw-bold fs-4" style="padding-top: 4rem">
                 Saia em qualquer lugar
               </p>
               <p>
