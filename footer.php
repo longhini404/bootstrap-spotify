@@ -8,7 +8,7 @@
       </div>
 
       <div class="col-2">
-        <p class="text-muted mt-5 mb-4" style="font-size: small;"><strong>EMPRESA</strong></p>
+        <p class="text-muted mt-5" style="font-size: small;"><strong>EMPRESA</strong></p>
         <ul class="list-unstyled">
           <li class="pb-3">
             <a class="text-white" href="https://www.spotify.com/br/about-us/contact/">Sobre</a>
@@ -23,7 +23,7 @@
       </div>
 
       <div class="col-2">
-        <p class="text-muted mt-5 mb-4" style="font-size: small;"><strong>COMUNIDADES</strong></p>
+        <p class="text-muted mt-5" style="font-size: small;"><strong>COMUNIDADES</strong></p>
         <ul class="list-unstyled">
           <li class="pb-3">
             <a class="text-white" href="https://artists.spotify.com/?_ga=2.136255665.1032510707.1607106675-762130387.1599533115">Para Artistas</a>
@@ -44,7 +44,7 @@
       </div>
 
       <div class="col-2">
-        <p class="text-muted mt-5 mb-4" style="font-size: small;"><strong>LINKS ÚTEIS</strong></p>
+        <p class="text-muted mt-5" style="font-size: small;"><strong>LINKS ÚTEIS</strong></p>
         <ul class="list-unstyled">
           <li class="pb-3">
             <a class="text-white" href="https://support.spotify.com/br/?_ga=2.237360256.1032510707.1607106675-762130387.1599533115">Suporte</a>
@@ -80,35 +80,38 @@
           </li>
         </ul>
       </div>
+    </div>
 
-      <ul class="list-unstyled list-inline content" style="padding-top: 6rem; font-size: small;">
-
-        <li class="list-inline-item">
-          <a class="text-muted" href="https://www.spotify.com/br/legal/">
-            Legal
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="text-muted" href="https://www.spotify.com/br/privacy/">
-            Centro de Privacidade
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="text-muted" href="https://www.spotify.com/br/legal/privacy-policy/">
-            Política de privacidade
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="text-muted" href="https://www.spotify.com/br/legal/cookies-policy/">
-            Cookies
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="text-muted" href="https://www.spotify.com/br/legal/privacy-policy/#s3">
-            Sobre anúncios
-          </a>
-        </li>
-        <div style="text-align: right;">
+    <div class="list-unstyled list-inline pb-4" style="padding-top: 6rem; font-size: smaller;">
+      <div class="row">
+        <div class="col-10">
+          <li class="list-inline-item">
+            <a class="text-muted" href="https://www.spotify.com/br/legal/">
+              Legal
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="text-muted px-2" href="https://www.spotify.com/br/privacy/">
+              Centro de Privacidade
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="text-muted px-2" href="https://www.spotify.com/br/legal/privacy-policy/">
+              Política de privacidade
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="text-muted px-2" href="https://www.spotify.com/br/legal/cookies-policy/">
+              Cookies
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="text-muted px-2" href="https://www.spotify.com/br/legal/privacy-policy/#s3">
+              Sobre anúncios
+            </a>
+          </li>
+        </div>
+        <div class="col-2" style="text-align: right;">
           <li class="list-inline-item">
             <p class="text-muted">
               Brasil
@@ -117,7 +120,7 @@
             <p class="text-muted copyright">© 2020 Spotify AB</p>
           </li>
         </div>
-      </ul>
+      </div>
     </div>
   </div>
 </footer>
