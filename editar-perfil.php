@@ -129,7 +129,7 @@
                 <?php unset($_SESSION['mensagem_erro']) ?>
               <?php } ?>
 
-              <form action="edit.php" method="post">
+              <form id="myForm" action="edit.php" method="post">
                 <div class="mb-4">
                   <label for="email" class="form-label fw-bold">E-mail</label>
                   <input type="email" class="form-control form-select-lg" id="email" name="email" required value="<?php echo empty($_SESSION['email']) ? "" : $_SESSION['email'] ?>">
@@ -193,7 +193,7 @@
                 <hr>
                 <div style="margin-bottom: 7.5rem; text-align: right">
                   <a href="index.php" role="button" class="btn-cancelar mx-4">CANCELAR</a>
-                  <button data-bs-toggle="modal" data-bs-target="#loadingModal" type="submit" class="btn rounded-pill btn-spotify">SALVAR PERFIL</button>
+                  <button data-bs-toggle="modal" data-bs-target="#myModal" type="submit" class="btn rounded-pill btn-spotify">SALVAR PERFIL</button>
                 </div>
               </form>
             </div>
@@ -206,7 +206,7 @@
   </div>
 
   <!-- Modal -->
-  <div class="modal fade" id="loadingModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="myModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="d-flex justify-content-center">
@@ -220,6 +220,10 @@
   <!-- Footer -->
   <?php include 'footer.php' ?>
   <!-- / Footer -->
+
+  <script language="javascript">
+
+  </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/446e1edcd2.js" crossorigin="anonymous"></script>
