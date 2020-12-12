@@ -1,12 +1,20 @@
 <?php
 
-sleep(3);
+sleep(1);
 
 session_start();
 
-$day = $_POST['day'];
-$month = $_POST['month'];
-$year = $_POST['year'];
+$email = isset($_POST['email']) ? $_POST['email'] : null;
+$sex = isset($_POST['sex']) ? $_POST['sex'] : null;
+$day = isset($_POST['day']) ? $_POST['day'] : null;
+$month = isset($_POST['month']) ? $_POST['month'] : null;
+$year = isset($_POST['year']) ? $_POST['year'] : null;
+
+if (empty($email) || empty($sex) || empty($day) || empty($month) || empty($year)) {
+    $_SESSION['mensagem_erro'] = "Preencha todos os campos";
+    header("Location: editar-perfil.php");
+    die();
+}
 
 try {
     $dataNascimento = "$year-$month-$day";
@@ -31,3 +39,4 @@ try {
 }
 
 header("Location: editar-perfil.php");
+die();
