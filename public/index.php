@@ -21,7 +21,7 @@
   <div class="bg-blue">
     <!-- Cover -->
     <section>
-      <div class="container bg-primary pt-5">
+      <div class="container bg-cover pt-5">
         <p class="text-cover fs-1">
           Premium Família
         </p>
