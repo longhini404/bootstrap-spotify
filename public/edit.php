@@ -19,7 +19,7 @@ try {
     $dataNascimento = "$year-$month-$day";
     $date = new DateTime($dataNascimento);
     $intervalo = $date->diff(new DateTime(date('Y-m-d')));
-    echo $intervalo->format('%Y anos');
+    $intervalo->format('%Y anos');
 
     if ($intervalo->format('%Y') < 14) {
         $_SESSION['mensagem_erro'] = "Menor de idade";
