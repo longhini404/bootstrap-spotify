@@ -1,0 +1,261 @@
+/* Header */
+.bg-black {
+  background-color: #000 !important;
+  color: #fff;
+}
+
+.navbar-collapse {
+  width: auto;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #fff;
+}
+
+.navbar-toggler {
+  background-color: #fff;
+}
+
+.nav-link:hover {
+  color: #1db954 !important;
+}
+
+.dropdown-item:hover {
+  color: #1db954 !important;
+}
+
+.navbar {
+  padding-top: unset;
+}
+
+/* Cover */
+.bg-blue {
+  position: relative;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#212c39), color-stop(50%, #121e3d), to(#000));
+  background-image: linear-gradient(#212c39, #121e3d 50%, #000);
+  background-repeat: no-repeat;
+}
+
+.bg-cover {
+  background-color: #a0c3d2 !important;
+  color: #000;
+}
+
+.text-cover {
+  padding-top: 7rem;
+  padding-left: 4rem;
+  font-weight: bold;
+}
+
+.description-cover {
+  padding-bottom: 7.5rem;
+  padding-left: 4rem;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+/* Menu */
+.menu-profile-picture {
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.table td,
+.table th {
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.text-menu {
+  padding: 1.4rem;
+  font-weight: 500;
+}
+
+.menu-icons {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-right: 18px;
+}
+
+/* Content */
+.bg-menu {
+  background-color: #1b1b1b;
+}
+
+.table-account td,
+.table-account th {
+  border-top: none;
+}
+
+/* Card */
+.bg-card {
+  background-color: #a0c3d2 !important;
+  padding-left: 2rem;
+  color: #000;
+}
+
+/* Footer */
+li:hover {
+  color: #1db954 !important;
+  text-decoration: none;
+}
+
+.social-media-icon {
+  background: #222326;
+  border-radius: 100%;
+  font-size: 1.8rem;
+  padding: 14px;
+}
+
+.copyright:hover {
+  color: #757575 !important;
+}
+
+/* Form */
+label {
+  font-size: 14px;
+}
+
+/* Buttons */
+.btn-spotify {
+  box-sizing: border-box;
+  border: 0px;
+  border-radius: 500px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition-duration: 33ms;
+  user-select: none;
+  vertical-align: middle;
+  padding: 18px 48px;
+  position: relative;
+  background-color: #1db954;
+  color: #fff;
+}
+
+.btn-spotify:hover {
+  box-sizing: border-box;
+  border: 0px;
+  border-radius: 500px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition-duration: 33ms;
+  user-select: none;
+  vertical-align: middle;
+  padding: 20px 50px;
+  position: relative;
+  background-color: #1ed760;
+  color: #fff;
+}
+
+.btn-index-spotify {
+  box-sizing: border-box;
+  border-width: 2px;
+  border-radius: 500px;
+  border-color: #757575;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition-duration: 33ms;
+  user-select: none;
+  vertical-align: middle;
+  padding: 18px 48px;
+  position: relative;
+  background-color: transparent;
+  color: #757575;
+}
+
+.btn-index-spotify:hover {
+  box-sizing: border-box;
+  border-width: 2px;
+  border-radius: 500px;
+  border-color: #000 !important;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition-duration: 33ms;
+  user-select: none;
+  vertical-align: middle;
+  padding: 18px 48px;
+  position: relative;
+  background-color: transparent;
+  color: #000 !important;
+}
+
+.btn-cancelar {
+  color: #757575;
+  padding: 2rem;
+}
+
+.btn-cancelar:hover {
+  color: #000 !important;
+}
+
+/* text */
+.text-black {
+  color: #000;
+}
+
+.text-muted {
+  color: #757575 !important;
+}
+
+.text-reset {
+  text-decoration: underline !important;
+}
+
+/* a */
+a {
+  color: #1db954;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1db954 !important;
+  text-decoration: none;
+}
+
+/* checkbox */
+.form-check-input:checked {
+  background-color: #1db954;
+  border-color: #1db954;
+}
+
+/* Loading Modal */
+div.spinner-border.text-success {
+  width: 10rem;
+  height: 10rem;
+}
+
+.modal-content {
+  background-color: transparent;
+  border: none;
+}
+
+/*# sourceMappingURL=style.css.map */

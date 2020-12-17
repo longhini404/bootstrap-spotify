@@ -2,27 +2,26 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="icon" type="image/png" href="assets/brand/spotify-icon.png" />
+  <link rel="icon" type="image/png" href="assets/img/brand/spotify-icon.png" />
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="index.css" />
+  <link href="/assets/library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css" />
 
   <title>Visão geral da conta - Spotify</title>
 </head>
 
 <body>
   <!-- Header -->
-  <?php include 'header.php' ?>
+  <?php include __DIR__ . '/../layouts/header.php' ?>
   <!-- / Header -->
 
   <div class="bg-blue">
     <!-- Cover -->
     <section>
-      <div class="container bg-cover pt-5">
+      <div class="container bg-primary pt-5">
         <p class="text-cover fs-1">
           Premium Família
         </p>
@@ -220,11 +219,12 @@
   </div>
 
   <!-- Footer -->
-  <?php include 'footer.php' ?>
+  <?php include __DIR__ . '/../layouts/footer.php' ?>
   <!-- / Footer -->
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script src="/assets/library/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="https://kit.fontawesome.com/446e1edcd2.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

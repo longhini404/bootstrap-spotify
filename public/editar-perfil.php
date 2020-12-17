@@ -3,21 +3,20 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="icon" type="image/png" href="assets/brand/spotify-icon.png" />
+  <link rel="icon" type="image/png" href="assets/img/brand/spotify-icon.png" />
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="index.css" />
+  <link href="/assets/library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css" />
 
   <title>Editar Perfil - Spotify</title>
 </head>
 
 <body>
   <!-- Header -->
-  <?php include 'header.php' ?>
+  <?php include __DIR__ . '/../layouts/header.php' ?>
   <!-- / Header -->
 
   <div class="bg-blue">
@@ -151,7 +150,7 @@
                   <label class="form-label fw-bold">Data de nascimento</label>
                   <div class="row">
                     <div class="col-4">
-                      <input type="text" class="form-control form-control-lg" id="day" name="day" value="<?php echo empty($_SESSION['day']) ? "" : $_SESSION['day'] ?>" required>
+                      <input min="1" max="31" type="number" class="form-control form-control-lg" id="day" name="day" value="<?php echo empty($_SESSION['day']) ? "" : $_SESSION['day'] ?>" required>
                     </div>
                     <div class="col-4">
                       <select class="form-select form-select-lg mb-3" name="month" aria-label=".form-select-lg example" required>
@@ -171,7 +170,7 @@
                       </select>
                     </div>
                     <div class="col-4">
-                      <input type="text" class="form-control form-control-lg" id="year" name="year" value="<?php echo empty($_SESSION['year']) ? "" : $_SESSION['year'] ?>" required>
+                      <input min="1" max="<?php echo date("Y"); ?>" type="number" class="form-control form-control-lg" id="year" name="year" value="<?php echo empty($_SESSION['year']) ? "" : $_SESSION['year'] ?>" required>
                     </div>
                   </div>
                 </div>
@@ -206,7 +205,7 @@
   </div>
 
   <!-- Modal -->
-  <div class="modal fade" id="myModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="myModal" aria-labelledby="myModal" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="d-flex justify-content-center">
@@ -218,11 +217,12 @@
   </div>
 
   <!-- Footer -->
-  <?php include 'footer.php' ?>
+  <?php include __DIR__ . '/../layouts/footer.php' ?>
   <!-- / Footer -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/446e1edcd2.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

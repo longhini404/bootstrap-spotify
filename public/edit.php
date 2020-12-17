@@ -12,8 +12,7 @@ $year = isset($_POST['year']) ? $_POST['year'] : null;
 
 if (empty($email) || empty($sex) || empty($day) || empty($month) || empty($year)) {
     $_SESSION['mensagem_erro'] = "Preencha todos os campos";
-    header("Location: editar-perfil.php");
-    die();
+    exit(header("Location: editar-perfil.php"));
 }
 
 try {
@@ -38,5 +37,4 @@ try {
     $_SESSION['mensagem_erro'] = "Data de nascimento inválida";
 }
 
-header("Location: editar-perfil.php");
-die();
+exit(header("Location: editar-perfil.php"));

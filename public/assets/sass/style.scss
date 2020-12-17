@@ -1,3 +1,5 @@
+@import "vars/colors";
+
 /* Header */
 .bg-black {
   background-color: #000 !important;
@@ -263,3 +265,6 @@ div.spinner-border.text-success {
   background-color: transparent;
   border: none;
 }
+
+// @import "divs/";
+// @import "blocks/";

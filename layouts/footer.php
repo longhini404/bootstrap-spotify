@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-2 mt-5">
         <a href="https://www.spotify.com/br/">
-          <img src="assets/brand/spotify-logo-branca.png" width="132" height="40" class="d-inline-block align-top mr-auto" alt="spotify Logo Branca" />
+          <img src="assets/img/brand/spotify-logo-branca.png" width="132" height="40" class="d-inline-block align-top mr-auto" alt="spotify Logo Branca" />
         </a>
       </div>
 
