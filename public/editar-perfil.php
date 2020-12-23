@@ -16,10 +16,10 @@
 
 <body>
   <!-- Header -->
-  <?php include __DIR__ . '/../layouts/header.php' ?>
+  <?php include __DIR__ . '/../layouts/logged/header.php' ?>
   <!-- / Header -->
 
-  <div class="bg-blue">
+  <div class="bg-degrade">
     <!-- Profile -->
     <section>
       <div class="container">
@@ -34,7 +34,7 @@
                 <tbody>
                   <tr>
                     <th>
-                      <a class="text-muted text-menu" href="index.php"><i class="fas fa-home menu-icons"></i>Visão geral da
+                      <a class="text-muted text-menu" href="perfil.php"><i class="fas fa-home menu-icons"></i>Visão geral da
                         conta</a>
                     </th>
                   </tr>
@@ -130,15 +130,15 @@
 
               <form id="myForm" action="edit.php" method="post" class="needs-validation">
                 <div class="col mb-4">
-                  <label for="email" class="form-label fw-bold">E-mail</label>
+                  <label for="email" class="form-label fw-bold text-small">E-mail</label>
                   <input type="email" class="form-control form-control-lg" id="email" name="email" value="<?php echo empty($_SESSION['email']) ? "" : $_SESSION['email'] ?>" required>
                 </div>
                 <div class="mb-4">
-                  <label for="password" class="form-label fw-bold">Senha</label>
+                  <label for="password" class="form-label fw-bold text-small">Senha</label>
                   <input type="password" class="form-control form-control-lg" id="password" name="password" disabled>
                 </div>
                 <div class="mb-4">
-                  <label for="sex" class="form-label fw-bold">Sexo</label>
+                  <label for="sex" class="form-label fw-bold text-small">Sexo</label>
                   <select class="form-select form-select-lg mb-3" name="sex" aria-label=".form-select-lg example">
                     <?php if (empty($_SESSION['sex'])) $_SESSION['sex'] = ""; ?>
                     <option value="Masculino" <?= ($_SESSION['sex'] == "Masculino") ? 'selected' : '' ?>>Masculino</option>
@@ -147,7 +147,7 @@
                   </select>
                 </div>
                 <div class="mb-4">
-                  <label class="form-label fw-bold">Data de nascimento</label>
+                  <label class="form-label fw-bold text-small">Data de nascimento</label>
                   <div class="row">
                     <div class="col-4">
                       <input min="1" max="31" type="number" class="form-control form-control-lg" id="day" name="day" value="<?php echo empty($_SESSION['day']) ? "" : $_SESSION['day'] ?>" required>
@@ -175,7 +175,7 @@
                   </div>
                 </div>
                 <div class="mb-4">
-                  <label for="country" class="form-label fw-bold">País ou região</label>
+                  <label for="country" class="form-label fw-bold text-small">País ou região</label>
                   <select class="form-select form-select-lg mb-3" name="country" aria-label=".form-select-lg example" aria-describedby="help" required disabled>
                     <?php if (empty($_SESSION['country'])) $_SESSION['country'] = ""; ?>
                     <option value="Brasil" <?= ($_SESSION['country'] == "Brasil") ? "" : "" ?>>Brasil</option>
@@ -191,7 +191,7 @@
                 </div>
                 <hr>
                 <div style="margin-bottom: 7.5rem; text-align: right">
-                  <a href="index.php" role="button" class="btn-cancelar mx-4">CANCELAR</a>
+                  <a href="perfil.php" role="button" class="btn-cancelar mx-4">CANCELAR</a>
                   <button data-bs-toggle="modal" data-bs-target="#myModal" type="submit" class="btn rounded-pill btn-spotify">SALVAR PERFIL</button>
                 </div>
               </form>
@@ -217,7 +217,7 @@
   </div>
 
   <!-- Footer -->
-  <?php include __DIR__ . '/../layouts/footer.php' ?>
+  <?php include __DIR__ . '/../layouts/logged/footer.php' ?>
   <!-- / Footer -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
