@@ -28,7 +28,7 @@
           <div class="col-3 bg-menu">
             <div class="row justify-content-center">
               <div class="col-4">
-                <img src="assets/img/profile-picture.jpg" width="70" height="70" class="rounded-circle menu-profile-picture" alt="Profile Picture" />
+                <img src="assets/img/profile-picture.jpg" width="70" height="70" class="rounded-circle my-4" alt="Profile Picture" />
               </div>
               <table class="table">
                 <tbody>

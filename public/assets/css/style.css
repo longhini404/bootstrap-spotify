@@ -60,11 +60,6 @@ li:hover {
   background-color: #1b1b1b;
 }
 
-.menu-profile-picture {
-  margin-top: 1.6rem;
-  margin-bottom: 1.6rem;
-}
-
 .menu-icons {
   margin-top: 14px;
   margin-bottom: 14px;
@@ -129,29 +124,13 @@ li:hover {
   padding: 18px 48px;
   position: relative;
   background-color: #1db954;
-  color: #fff;
+  color: #fff !important;
 }
 
 .btn-spotify:hover {
-  box-sizing: border-box;
-  border: 0px;
-  border-radius: 500px;
-  display: inline-block;
   font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 2px;
-  line-height: 1;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  touch-action: manipulation;
-  transition-duration: 33ms;
-  user-select: none;
-  vertical-align: middle;
   padding: 20px 50px;
-  position: relative;
   background-color: #1ed760;
-  color: #fff;
 }
 
 .btn-grey-spotify {
@@ -173,31 +152,14 @@ li:hover {
   vertical-align: middle;
   padding: 18px 48px;
   position: relative;
-  background-color: transparent;
+  background-color: transparent !important;
   color: #757575;
 }
 
 .btn-grey-spotify:hover {
-  box-sizing: border-box;
-  border-width: 2px;
-  border-radius: 500px;
   border-color: #000 !important;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 2px;
-  line-height: 1;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  touch-action: manipulation;
-  transition-duration: 33ms;
-  user-select: none;
-  vertical-align: middle;
-  padding: 18px 48px;
-  position: relative;
-  background-color: transparent;
   color: #000 !important;
+  font-size: 16px;
 }
 
 .btn-dark-pink-spotify {
@@ -236,6 +198,16 @@ li:hover {
   color: #000 !important;
 }
 
+/* text size */
+.text-small {
+  font-size: small;
+}
+
+.text-big {
+  font-size: 64px !important;
+  line-height: 64px !important;
+}
+
 /* text color */
 .text-black {
   color: #000;
@@ -257,26 +229,16 @@ li:hover {
   text-decoration: underline !important;
 }
 
-/* text size */
-.text-small {
-  font-size: small;
-}
-
-.text-big {
-  font-size: 64px !important;
-  line-height: 64px !important;
-}
-
 /* a */
 a {
   color: #1db954;
-  font-weight: bold;
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
   color: #1db954 !important;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 /* checkbox */
