@@ -8,6 +8,10 @@
 - $ cd ~/public/assets
 - $ sass --watch sass:css
 
-[![](https://github.com/LonghiniDev/missao-spotify/blob/master/Spotify%20Account%20Overview.png)](#)
+[![](https://github.com/LonghiniDev/missao-spotify/blob/master/Spotify%20Index.png)](#)
 
-[![](https://github.com/LonghiniDev/missao-spotify/blob/master/Spotify%20Account%20Profile.png)](#)
+[![](https://github.com/LonghiniDev/missao-spotify/blob/master/Spotify%20Home.png)](#)
+
+[![](https://github.com/LonghiniDev/missao-spotify/blob/master/Spotify%20Perfil.png)](#)
+
+[![](https://github.com/LonghiniDev/missao-spotify/blob/master/Spotify%20Editar%20Perfil.png)](#)
