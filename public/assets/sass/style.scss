@@ -35,6 +35,10 @@
   background-color: $dark-pink;
 }
 
+.bg-blue {
+  background-color: $blue;
+}
+
 /* Buttons */
 .btn-spotify {
   box-sizing: border-box;
@@ -59,9 +63,8 @@
 }
 
 .btn-spotify:hover {
-  font-size: 16px;
-  padding: 20px 50px;
   background-color: $light-green;
+  font-size: 16px;
 }
 
 .btn-grey-spotify {
@@ -120,6 +123,61 @@
   color: $black !important;
 }
 
+.btn-green-cyan-spotify {
+  box-sizing: border-box;
+  border: 0px;
+  border-radius: 500px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition-duration: 33ms;
+  user-select: none;
+  vertical-align: middle;
+  padding: 18px 48px;
+  position: relative;
+  background-color: $green-cyan;
+  color: $dark-pink;
+}
+
+.btn-green-cyan-spotify:hover {
+  background-color: $white;
+  color: $dark-pink !important;
+}
+
+.btn-green-blue-spotify {
+  box-sizing: border-box;
+  border: 0px;
+  border-radius: 500px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition-duration: 33ms;
+  user-select: none;
+  vertical-align: middle;
+  padding: 18px 48px;
+  position: relative;
+  background-color: $green;
+  color: $blue !important;
+}
+
+.btn-green-blue-spotify:hover {
+  background-color: $white;
+  color: $blue !important;
+  font-size: 16px;
+}
+
 .btn-cancelar {
   color: $grey;
   padding: 2rem;
@@ -144,12 +202,20 @@
   color: $black;
 }
 
+.text-green {
+  color: $green;
+}
+
 .text-dark-pink {
   color: $dark-pink;
 }
 
 .text-green-cyan {
   color: $green-cyan;
+}
+
+.text-blue {
+  color: $blue;
 }
 
 .text-muted {

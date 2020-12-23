@@ -19,12 +19,12 @@
     <?php include __DIR__ . '/../layouts/disconnected/header.php' ?>
     <!-- / Header -->
 
-    <!-- Cover -->
+    <!-- SPOTIFY PREMIUM -->
     <div class="bg-green-cyan pt-5">
         <div class="row">
             <div class="col-6">
                 <div class="container m-5">
-                    <p class="text-dark-pink fw-bold my-4">
+                    <p class="text-dark-pink fw-light my-4">
                         SPOTIFY PREMIUM
                     </p>
                     <p class="text-big text-dark-pink fw-bold">
@@ -52,7 +52,59 @@
             </div>
         </div>
     </div>
-    <!-- / Cover -->
+    <!-- / SPOTIFY PREMIUM -->
+
+    <!-- RETROSPECTIVA 2020 -->
+    <div class="bg-dark-pink pt-5">
+        <div class="row">
+            <div class="col-5">
+
+            </div>
+            <div class="col-6">
+                <div class="container m-5">
+                    <p class="text-green-cyan fw-light my-4">
+                        RETROSPECTIVA 2020
+                    </p>
+                    <p class="text-big text-green-cyan fw-bold">
+                        Veja o que rolou no seu Spotify
+                    </p>
+                    <p class="text-green-cyan fw-bold">
+                        Descubra os artistas, músicas e podcasts que te ajudaram a sobreviver ao ano mais longo da história.
+                    </p>
+                    <a type="button" href="https://spotify.com/wrapped?v=3f148e4a-0e3d-11eb-adc1-0242ac120002&_ga=2.198141039.1342819973.1608673385-762130387.1599533115" class="btn btn-lg btn-green-cyan-spotify m-4">
+                        CONFIRA SUA RETROSPECTIVA
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- / RETROSPECTIVA 2020 -->
+
+    <!-- SPOTIFY FREE -->
+    <div class="bg-blue pt-5">
+        <div class="row">
+            <div class="col-6">
+                <div class="container m-5">
+                    <p class="text-green fw-light my-4">
+                        SPOTIFY FREE
+                    </p>
+                    <p class="text-big text-green fw-bold">
+                        Escutar muda tudo
+                    </p>
+                    <p class="text-green fw-bold">
+                        Milhões de músicas e podcasts para explorar. E nem precisa de cartão de crédito.
+                    </p>
+                    <a type="button" href="https://www.spotify.com/br/download/" class="btn btn-lg btn-green-blue-spotify m-4">
+                        OBTENHA O SPOTIFY FREE
+                    </a>
+                </div>
+            </div>
+            <div class="col-5">
+
+            </div>
+        </div>
+    </div>
+    <!-- / SPOTIFY FREE -->
 
     <!-- Footer -->
     <?php include __DIR__ . '/../layouts/disconnected/footer.php' ?>

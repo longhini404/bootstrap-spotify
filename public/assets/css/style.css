@@ -101,7 +101,11 @@ li:hover {
 }
 
 .bg-dark-pink {
-  background-color: #CB1582;
+  background-color: #cb1582;
+}
+
+.bg-blue {
+  background-color: #2d46b9;
 }
 
 /* Buttons */
@@ -128,9 +132,8 @@ li:hover {
 }
 
 .btn-spotify:hover {
-  font-size: 16px;
-  padding: 20px 50px;
   background-color: #1ed760;
+  font-size: 16px;
 }
 
 .btn-grey-spotify {
@@ -180,13 +183,68 @@ li:hover {
   vertical-align: middle;
   padding: 18px 48px;
   position: relative;
-  background-color: #CB1582;
+  background-color: #cb1582;
   color: #fff;
 }
 
 .btn-dark-pink-spotify:hover {
   background-color: #fff !important;
   color: #000 !important;
+}
+
+.btn-green-cyan-spotify {
+  box-sizing: border-box;
+  border: 0px;
+  border-radius: 500px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition-duration: 33ms;
+  user-select: none;
+  vertical-align: middle;
+  padding: 18px 48px;
+  position: relative;
+  background-color: #a5ffef;
+  color: #cb1582;
+}
+
+.btn-green-cyan-spotify:hover {
+  background-color: #fff;
+  color: #cb1582 !important;
+}
+
+.btn-green-blue-spotify {
+  box-sizing: border-box;
+  border: 0px;
+  border-radius: 500px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition-duration: 33ms;
+  user-select: none;
+  vertical-align: middle;
+  padding: 18px 48px;
+  position: relative;
+  background-color: #1db954;
+  color: #2d46b9 !important;
+}
+
+.btn-green-blue-spotify:hover {
+  background-color: #fff;
+  color: #2d46b9 !important;
+  font-size: 16px;
 }
 
 .btn-cancelar {
@@ -213,12 +271,20 @@ li:hover {
   color: #000;
 }
 
+.text-green {
+  color: #1db954;
+}
+
 .text-dark-pink {
-  color: #CB1582;
+  color: #cb1582;
 }
 
 .text-green-cyan {
   color: #a5ffef;
+}
+
+.text-blue {
+  color: #2d46b9;
 }
 
 .text-muted {
