@@ -1,0 +1,30 @@
+.bg-menu {
+  background-color: $bg-menu-color;
+}
+
+.menu-profile-picture {
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.menu-icons {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-right: 18px;
+}
+
+.text-menu {
+  padding: 1.4rem;
+  font-weight: 500;
+}
+
+.table td,
+.table th {
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.table-account td,
+.table-account th {
+  border-top: none;
+}

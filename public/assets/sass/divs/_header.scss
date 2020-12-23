@@ -1,0 +1,23 @@
+.navbar {
+  padding-top: unset;
+}
+
+.navbar-collapse {
+  width: auto;
+}
+
+.navbar-toggler {
+  background-color: $white;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: $white;
+}
+
+.nav-link:hover {
+  color: $green !important;
+}
+
+.dropdown-item:hover {
+  color: $green !important;
+}

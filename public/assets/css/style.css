@@ -1,19 +1,17 @@
-/* Header */
-.bg-black {
-  background-color: #000 !important;
-  color: #fff;
+.navbar {
+  padding-top: unset;
 }
 
 .navbar-collapse {
   width: auto;
 }
 
-.navbar-light .navbar-toggler {
-  border-color: #fff;
-}
-
 .navbar-toggler {
   background-color: #fff;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #fff;
 }
 
 .nav-link:hover {
@@ -24,51 +22,47 @@
   color: #1db954 !important;
 }
 
-.navbar {
-  padding-top: unset;
+.social-media-icon {
+  background: #222326;
+  border-radius: 100%;
+  font-size: 1.8rem;
+  padding: 14px;
 }
 
-/* Cover */
-.bg-blue {
-  position: relative;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#212c39), color-stop(50%, #121e3d), to(#000));
-  background-image: linear-gradient(#212c39, #121e3d 50%, #000);
-  background-repeat: no-repeat;
+li:hover {
+  color: #1db954 !important;
+  text-decoration: none;
 }
 
-.bg-cover {
+.copyright:hover {
+  color: #757575 !important;
+}
+
+.bg-premium {
   background-color: #a0c3d2 !important;
   color: #000;
 }
 
-.text-cover {
+.text-premium {
   padding-top: 7rem;
   padding-left: 4rem;
   font-weight: bold;
 }
 
-.description-cover {
+.description-premium {
   padding-bottom: 7.5rem;
   padding-left: 4rem;
   font-weight: 400;
   font-size: 24px;
 }
 
-/* Menu */
+.bg-menu {
+  background-color: #1b1b1b;
+}
+
 .menu-profile-picture {
   margin-top: 1.6rem;
   margin-bottom: 1.6rem;
-}
-
-.table td,
-.table th {
-  border-top: 1px solid rgba(0, 0, 0, 0.25);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
-}
-
-.text-menu {
-  padding: 1.4rem;
-  font-weight: 500;
 }
 
 .menu-icons {
@@ -77,9 +71,15 @@
   margin-right: 18px;
 }
 
-/* Content */
-.bg-menu {
-  background-color: #1b1b1b;
+.text-menu {
+  padding: 1.4rem;
+  font-weight: 500;
+}
+
+.table td,
+.table th {
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
 
 .table-account td,
@@ -87,33 +87,26 @@
   border-top: none;
 }
 
-/* Card */
-.bg-card {
-  background-color: #a0c3d2 !important;
-  padding-left: 2rem;
-  color: #000;
+/* Cover */
+.bg-degrade {
+  position: relative;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#212c39), color-stop(50%, #121e3d), to(#000));
+  background-image: linear-gradient(#212c39, #121e3d 50%, #000);
+  background-repeat: no-repeat;
 }
 
-/* Footer */
-li:hover {
-  color: #1db954 !important;
-  text-decoration: none;
+/* background-color */
+.bg-black {
+  background-color: #000 !important;
+  color: #fff;
 }
 
-.social-media-icon {
-  background: #222326;
-  border-radius: 100%;
-  font-size: 1.8rem;
-  padding: 14px;
+.bg-green-cyan {
+  background-color: #a5ffef;
 }
 
-.copyright:hover {
-  color: #757575 !important;
-}
-
-/* Form */
-label {
-  font-size: 14px;
+.bg-dark-pink {
+  background-color: #CB1582;
 }
 
 /* Buttons */
@@ -161,7 +154,7 @@ label {
   color: #fff;
 }
 
-.btn-index-spotify {
+.btn-grey-spotify {
   box-sizing: border-box;
   border-width: 2px;
   border-radius: 500px;
@@ -184,7 +177,7 @@ label {
   color: #757575;
 }
 
-.btn-index-spotify:hover {
+.btn-grey-spotify:hover {
   box-sizing: border-box;
   border-width: 2px;
   border-radius: 500px;
@@ -207,6 +200,33 @@ label {
   color: #000 !important;
 }
 
+.btn-dark-pink-spotify {
+  box-sizing: border-box;
+  border: 0px;
+  border-radius: 500px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition-duration: 33ms;
+  user-select: none;
+  vertical-align: middle;
+  padding: 18px 48px;
+  position: relative;
+  background-color: #CB1582;
+  color: #fff;
+}
+
+.btn-dark-pink-spotify:hover {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
 .btn-cancelar {
   color: #757575;
   padding: 2rem;
@@ -216,9 +236,17 @@ label {
   color: #000 !important;
 }
 
-/* text */
+/* text color */
 .text-black {
   color: #000;
+}
+
+.text-dark-pink {
+  color: #CB1582;
+}
+
+.text-green-cyan {
+  color: #a5ffef;
 }
 
 .text-muted {
@@ -227,6 +255,16 @@ label {
 
 .text-reset {
   text-decoration: underline !important;
+}
+
+/* text size */
+.text-small {
+  font-size: small;
+}
+
+.text-big {
+  font-size: 64px !important;
+  line-height: 64px !important;
 }
 
 /* a */

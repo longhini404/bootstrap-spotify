@@ -1,36 +1,13 @@
 @import "vars/colors";
 
-/* Header */
-.bg-black {
-  background-color: $black !important;
-  color: $white;
-}
+@import "divs/header";
+@import "divs/footer";
+@import "divs/profile";
 
-.navbar-collapse {
-  width: auto;
-}
-
-.navbar-light .navbar-toggler {
-  border-color: $white;
-}
-.navbar-toggler {
-  background-color: $white;
-}
-
-.nav-link:hover {
-  color: $green !important;
-}
-
-.dropdown-item:hover {
-  color: $green !important;
-}
-
-.navbar {
-  padding-top: unset;
-}
+@import "blocks/menu";
 
 /* Cover */
-.bg-blue {
+.bg-degrade {
   position: relative;
   background-image: -webkit-gradient(
     linear,
@@ -44,84 +21,18 @@
   background-repeat: no-repeat;
 }
 
-.bg-cover {
-  background-color: $bg-premium-color !important;
-  color: $black;
+/* background-color */
+.bg-black {
+  background-color: $black !important;
+  color: $white;
 }
 
-.text-cover {
-  padding-top: 7rem;
-  padding-left: 4rem;
-  font-weight: bold;
+.bg-green-cyan {
+  background-color: $green-cyan;
 }
 
-.description-cover {
-  padding-bottom: 7.5rem;
-  padding-left: 4rem;
-  font-weight: 400;
-  font-size: 24px;
-}
-
-/* Menu */
-.menu-profile-picture {
-  margin-top: 1.6rem;
-  margin-bottom: 1.6rem;
-}
-
-.table td,
-.table th {
-  border-top: 1px solid rgba(0, 0, 0, 0.25);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
-}
-
-.text-menu {
-  padding: 1.4rem;
-  font-weight: 500;
-}
-
-.menu-icons {
-  margin-top: 14px;
-  margin-bottom: 14px;
-  margin-right: 18px;
-}
-
-/* Content */
-.bg-menu {
-  background-color: $bg-menu-color;
-}
-
-.table-account td,
-.table-account th {
-  border-top: none;
-}
-
-/* Card */
-.bg-card {
-  background-color: $bg-premium-color !important;
-  padding-left: 2rem;
-  color: $black;
-}
-
-/* Footer */
-li:hover {
-  color: $green !important;
-  text-decoration: none;
-}
-
-.social-media-icon {
-  background: #222326;
-  border-radius: 100%;
-  font-size: 1.8rem;
-  padding: 14px;
-}
-
-.copyright:hover {
-  color: $grey !important;
-}
-
-/* Form */
-label {
-  font-size: 14px;
+.bg-dark-pink {
+  background-color: $dark-pink;
 }
 
 /* Buttons */
@@ -169,7 +80,7 @@ label {
   color: $white;
 }
 
-.btn-index-spotify {
+.btn-grey-spotify {
   box-sizing: border-box;
   border-width: 2px;
   border-radius: 500px;
@@ -192,7 +103,7 @@ label {
   color: $grey;
 }
 
-.btn-index-spotify:hover {
+.btn-grey-spotify:hover {
   box-sizing: border-box;
   border-width: 2px;
   border-radius: 500px;
@@ -215,6 +126,33 @@ label {
   color: $black !important;
 }
 
+.btn-dark-pink-spotify {
+  box-sizing: border-box;
+  border: 0px;
+  border-radius: 500px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition-duration: 33ms;
+  user-select: none;
+  vertical-align: middle;
+  padding: 18px 48px;
+  position: relative;
+  background-color: $dark-pink;
+  color: $white;
+}
+
+.btn-dark-pink-spotify:hover {
+  background-color: $white !important;
+  color: $black !important;
+}
+
 .btn-cancelar {
   color: $grey;
   padding: 2rem;
@@ -224,9 +162,17 @@ label {
   color: $black !important;
 }
 
-/* text */
+/* text color */
 .text-black {
   color: $black;
+}
+
+.text-dark-pink {
+  color: $dark-pink;
+}
+
+.text-green-cyan {
+  color: $green-cyan;
 }
 
 .text-muted {
@@ -235,6 +181,16 @@ label {
 
 .text-reset {
   text-decoration: underline !important;
+}
+
+/* text size */
+.text-small {
+  font-size: small;
+}
+
+.text-big {
+  font-size: 64px !important;
+  line-height: 64px !important;
 }
 
 /* a */
