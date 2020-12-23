@@ -192,7 +192,7 @@
                 <hr>
                 <div class="text-right mb-5">
                   <a href="perfil.php" role="button" class="btn-cancelar mx-4 p-4">CANCELAR</a>
-                  <button data-bs-toggle="modal" data-bs-target="#myModal" type="submit" class="btn rounded-pill btn-spotify">SALVAR PERFIL</button>
+                  <button data-bs-toggle="modal" data-bs-target="#myModal" type="submit" class="btn rounded-pill btn-green">SALVAR PERFIL</button>
                 </div>
               </form>
             </div>

@@ -153,7 +153,7 @@
                   </tbody>
                 </table>
               </div>
-              <a type="button" href="https://www.spotify.com/br/account/profile/" class="btn btn-outline-secondary btn-lg btn-grey-spotify">
+              <a type="button" href="https://www.spotify.com/br/account/profile/" class="btn btn-outline-secondary btn-lg btn-grey">
                 EDITAR PERFIL
               </a>
               <p class="text-black fw-bold fs-4 pt-5 pb-2">
@@ -188,7 +188,7 @@
                   </div>
                 </div>
               </div>
-              <a type="button" href="https://www.spotify.com/br/account/profile/" class="btn btn-outline-secondary btn-lg btn-grey-spotify mt-4">
+              <a type="button" href="https://www.spotify.com/br/account/profile/" class="btn btn-outline-secondary btn-lg btn-grey mt-4">
                 MUDAR DE PLANO
               </a>
               <p class="text-black fw-bold fs-4 pt-5 pb-2">
@@ -206,7 +206,7 @@
                   parceiro, confira o manual do fabricante do dispositivo.
                 </div>
               </div>
-              <a type="button" href="https://www.spotify.com/br/account/profile/" class="btn btn-outline-secondary btn-lg btn-grey-spotify mt-4 mb-5">
+              <a type="button" href="https://www.spotify.com/br/account/profile/" class="btn btn-outline-secondary btn-lg btn-grey mt-4 mb-5">
                 SAIR DE TODOS OS DISPOSITIVOS
               </a>
             </div>

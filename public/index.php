@@ -36,7 +36,7 @@
                     <p class="text-dark-pink fw-bold">
                         Não perca a chance de ouvir sua música sem anúncios, no modo offline e muito mais. Cancele quando quiser.
                     </p>
-                    <a type="button" href="https://www.spotify.com/purchase/offer/holiday-2020-trial-3m" class="btn btn-lg btn-dark-pink-spotify my-4">
+                    <a type="button" href="https://www.spotify.com/purchase/offer/holiday-2020-trial-3m" class="btn btn-lg btn-dark-pink my-4">
                         GANHE 3 MESES GRÁTIS
                     </a>
                     <p class="text-dark-pink text-small">
@@ -76,7 +76,7 @@
                     <p class="text-green-cyan fw-bold m-4">
                         Descubra os artistas, músicas e podcasts que te ajudaram a sobreviver ao ano mais longo da história.
                     </p>
-                    <a type="button" href="https://spotify.com/wrapped?v=3f148e4a-0e3d-11eb-adc1-0242ac120002&_ga=2.198141039.1342819973.1608673385-762130387.1599533115" class="btn btn-lg btn-green-cyan-spotify mx-4">
+                    <a type="button" href="https://spotify.com/wrapped?v=3f148e4a-0e3d-11eb-adc1-0242ac120002&_ga=2.198141039.1342819973.1608673385-762130387.1599533115" class="btn btn-lg btn-green-cyan mx-4">
                         CONFIRA SUA RETROSPECTIVA
                     </a>
                 </div>
@@ -99,7 +99,7 @@
                     <p class="text-light-green fw-bold fs-5 m-4">
                         Milhões de músicas e podcasts para explorar. E nem precisa de cartão de crédito.
                     </p>
-                    <a type="button" href="https://www.spotify.com/br/download/" class="btn btn-lg btn-green-blue-spotify m-4">
+                    <a type="button" href="https://www.spotify.com/br/download/" class="btn btn-lg btn-green-blue m-4">
                         OBTENHA O SPOTIFY FREE
                     </a>
                 </div>

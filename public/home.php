@@ -41,7 +41,7 @@
                     <p class="text-green-cyan fw-bold m-4">
                         Descubra os artistas, músicas e podcasts que te ajudaram a sobreviver ao ano mais longo da história.
                     </p>
-                    <a type="button" href="https://spotify.com/wrapped?v=3f148e4a-0e3d-11eb-adc1-0242ac120002&_ga=2.198141039.1342819973.1608673385-762130387.1599533115" class="btn btn-lg btn-green-cyan-spotify mx-4">
+                    <a type="button" href="https://spotify.com/wrapped?v=3f148e4a-0e3d-11eb-adc1-0242ac120002&_ga=2.198141039.1342819973.1608673385-762130387.1599533115" class="btn btn-lg btn-green-cyan mx-4">
                         CONFIRA SUA RETROSPECTIVA
                     </a>
                 </div>
@@ -62,7 +62,7 @@
                         <p class="text-white fw-bold mx-5 fs-5">
                             Conheça os melhores lançamentos do momento.
                         </p>
-                        <a type="button" href="https://open.spotify.com/browse?_ga=2.262449612.1342819973.1608673385-762130387.1599533115" class="btn btn-lg btn-spotify mx-5 my-2">
+                        <a type="button" href="https://open.spotify.com/browse?_ga=2.262449612.1342819973.1608673385-762130387.1599533115" class="btn btn-lg btn-green mx-5 my-2">
                             ABRIR O WEB PLAYER
                         </a>
                     </div>

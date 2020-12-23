@@ -54,7 +54,7 @@
 }
 
 // Buttons
-.btn-spotify {
+.btn-green {
   box-sizing: border-box;
   border: 0px;
   border-radius: 500px;
@@ -76,13 +76,13 @@
   color: white !important;
 }
 
-.btn-spotify:hover {
+.btn-green:hover {
   transition-duration: 0.3s;
   background-color: $light-green !important;
   color: white !important;
 }
 
-.btn-grey-spotify {
+.btn-grey {
   box-sizing: border-box;
   border-width: 2px;
   border-radius: 500px;
@@ -105,14 +105,14 @@
   color: grey;
 }
 
-.btn-grey-spotify:hover {
+.btn-grey:hover {
   transition-duration: 0.3s;
   border-color: black !important;
   color: black !important;
   font-size: 16px;
 }
 
-.btn-dark-pink-spotify {
+.btn-dark-pink {
   box-sizing: border-box;
   border: 0px;
   border-radius: 500px;
@@ -134,13 +134,13 @@
   color: white;
 }
 
-.btn-dark-pink-spotify:hover {
+.btn-dark-pink:hover {
   transition-duration: 0.3s;
   background-color: white !important;
   color: black !important;
 }
 
-.btn-green-cyan-spotify {
+.btn-green-cyan {
   box-sizing: border-box;
   border: 0px;
   border-radius: 500px;
@@ -162,14 +162,14 @@
   color: $dark-pink;
 }
 
-.btn-green-cyan-spotify:hover {
+.btn-green-cyan:hover {
   transition-duration: 0.3s;
   background-color: white !important;
   color: $dark-pink !important;
   font-size: 16px;
 }
 
-.btn-green-blue-spotify {
+.btn-green-blue {
   box-sizing: border-box;
   border: 0px;
   border-radius: 500px;
@@ -191,7 +191,7 @@
   color: $blue !important;
 }
 
-.btn-green-blue-spotify:hover {
+.btn-green-blue:hover {
   transition-duration: 0.3s;
   background-color: white !important;
   color: $blue !important;
