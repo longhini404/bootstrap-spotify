@@ -46,44 +46,46 @@
     <!-- / RETROSPECTIVA 2020 -->
 
     <!-- É música que você quer? -->
-    <div class="bg-green-cyan pt-5">
-        <div class="row">
-            <div class="col-4">
-                <div class="container m-5">
-                    <p class="text-white fw-bold mx-5 fs-1">
-                        É música que você quer?
-                    </p>
-                    <p class="text-white fw-bold mx-5 fs-5">
-                        Conheça os melhores lançamentos do momento.
-                    </p>
-                    <a type="button" href="https://open.spotify.com/browse?_ga=2.262449612.1342819973.1608673385-762130387.1599533115" class="btn btn-lg btn-spotify mx-5 my-2">
-                        ABRIR O WEB PLAYER
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-8">
-                <div class="container">
-                    <div class="row my-3">
-                        <div class="col-3 mx-3">
-                            <img src="https://campaigns.scdn.co/images/holiday-2020-second-wave.jpg" width="230">
-                        </div>
-                        <div class="col-3 mx-3">
-                            <img src="https://campaigns.scdn.co/images/holiday-2020-second-wave.jpg" width="230">
-                        </div>
-                        <div class="col-3 mx-3">
-                            <img src="https://campaigns.scdn.co/images/holiday-2020-second-wave.jpg" width="230">
-                        </div>
+    <div class="bg-gradient pt-5">
+        <div class="bg-gradient-cover">
+            <div class="row">
+                <div class="col-4">
+                    <div class="container m-5">
+                        <p class="text-white fw-bold mx-5 fs-1">
+                            É música que você quer?
+                        </p>
+                        <p class="text-white fw-bold mx-5 fs-5">
+                            Conheça os melhores lançamentos do momento.
+                        </p>
+                        <a type="button" href="https://open.spotify.com/browse?_ga=2.262449612.1342819973.1608673385-762130387.1599533115" class="btn btn-lg btn-spotify mx-5 my-2">
+                            ABRIR O WEB PLAYER
+                        </a>
                     </div>
-                    <div class="row my-3">
-                        <div class="col-3 mx-3">
-                            <img src="https://campaigns.scdn.co/images/holiday-2020-second-wave.jpg" width="230">
+                </div>
+
+                <div class="col-8">
+                    <div class="container">
+                        <div class="row my-3">
+                            <div class="col-3 mx-3">
+                                <img src="https://campaigns.scdn.co/images/holiday-2020-second-wave.jpg" width="230">
+                            </div>
+                            <div class="col-3 mx-3">
+                                <img src="https://campaigns.scdn.co/images/holiday-2020-second-wave.jpg" width="230">
+                            </div>
+                            <div class="col-3 mx-3">
+                                <img src="https://campaigns.scdn.co/images/holiday-2020-second-wave.jpg" width="230">
+                            </div>
                         </div>
-                        <div class="col-3 mx-3">
-                            <img src="https://campaigns.scdn.co/images/holiday-2020-second-wave.jpg" width="230">
-                        </div>
-                        <div class="col-3 mx-3">
-                            <img src="https://campaigns.scdn.co/images/holiday-2020-second-wave.jpg" width="230">
+                        <div class="row my-3">
+                            <div class="col-3 mx-3">
+                                <img src="https://campaigns.scdn.co/images/holiday-2020-second-wave.jpg" width="230">
+                            </div>
+                            <div class="col-3 mx-3">
+                                <img src="https://campaigns.scdn.co/images/holiday-2020-second-wave.jpg" width="230">
+                            </div>
+                            <div class="col-3 mx-3">
+                                <img src="https://campaigns.scdn.co/images/holiday-2020-second-wave.jpg" width="230">
+                            </div>
                         </div>
                     </div>
                 </div>
