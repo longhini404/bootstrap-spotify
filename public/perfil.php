@@ -18,16 +18,16 @@
   <?php include __DIR__ . '/../layouts/logged/header.php' ?>
   <!-- / Header -->
 
-  <div class="bg-degrade">
+  <div class="bg-gradient-dark">
     <!-- Cover -->
     <section>
-      <div class="container bg-premium pt-5">
-        <p class="text-premium fs-1">
+      <div class="container bg-premium text-black pt-5">
+        <p class="text-premium fw-bold fs-1">
           Premium Família
         </p>
         <div class="row">
           <div class="col-8">
-            <p class="lead description-premium">
+            <p class="lead description-premium fw-normal fw-4 fs-4">
               6 contas Premium para membros da família que moram debaixo do
               mesmo teto.
             </p>
@@ -51,69 +51,69 @@
                 <tbody>
                   <tr>
                     <th>
-                      <a class="text-white text-menu" href="perfil.php"><i class="fas fa-home menu-icons"></i>Visão geral da
+                      <a class="text-white p-4" href="perfil.php"><i class="fas fa-home mr-4 my-3"></i>Visão geral da
                         conta</a>
                     </th>
                   </tr>
                   <tr>
                     <th>
-                      <a class="text-muted text-menu" href="https://www.spotify.com/br/account/subscription/change/">
-                        <i class="fas fa-credit-card menu-icons"></i>Planos
+                      <a class="text-muted p-4" href="https://www.spotify.com/br/account/subscription/change/">
+                        <i class="fas fa-credit-card mr-4 my-2"></i>Planos
                         disponíveis</a>
                     </th>
                   </tr>
                   <tr>
                     <th>
-                      <a class="text-muted text-menu" href="https://www.spotify.com/br/account/family/">
-                        <i class="fas fa-users menu-icons"></i>Premium Família</a>
+                      <a class="text-muted p-4" href="https://www.spotify.com/br/account/family/">
+                        <i class="fas fa-users mr-4 my-3"></i>Premium Família</a>
                     </th>
                   </tr>
                   <tr>
                     <th>
-                      <a class="text-muted text-menu" href="editar-perfil.php">
-                        <i class="fas fa-pencil-alt menu-icons"></i>Editar perfil</a>
+                      <a class="text-muted p-4" href="editar-perfil.php">
+                        <i class="fas fa-pencil-alt mr-4 my-3"></i>Editar perfil</a>
                     </th>
                   </tr>
                   <tr>
                     <th>
-                      <a class="text-muted text-menu" href="https://www.spotify.com/br/account/change-password/">
-                        <i class="fas fa-lock menu-icons"></i>Mudar senha</a>
+                      <a class="text-muted p-4" href="https://www.spotify.com/br/account/change-password/">
+                        <i class="fas fa-lock mr-4 my-3"></i>Mudar senha</a>
                     </th>
                   </tr>
                   <tr>
                     <th>
-                      <a class="text-muted text-menu" href="https://www.spotify.com/br/account/notifications/"><i class="fas fa-bell menu-icons"></i>Configurar
+                      <a class="text-muted p-4" href="https://www.spotify.com/br/account/notifications/"><i class="fas fa-bell mr-4 my-3"></i>Configurar
                         notificações</a>
                     </th>
                   </tr>
                   <tr>
                     <th>
-                      <a class="text-muted text-menu" href="https://www.spotify.com/br/account/recover-playlists/"><i class="fas fa-lock menu-icons"></i>Configurações de
+                      <a class="text-muted p-4" href="https://www.spotify.com/br/account/recover-playlists/"><i class="fas fa-lock mr-4 my-3"></i>Configurações de
                         privacidade</a>
                     </th>
                   </tr>
                   <tr>
                     <th>
-                      <a class="text-muted text-menu" href="https://www.spotify.com/br/account/recover-playlists/"><i class="fas fa-redo-alt menu-icons"></i>Recuperar
+                      <a class="text-muted p-4" href="https://www.spotify.com/br/account/recover-playlists/"><i class="fas fa-redo-alt mr-4 my-3"></i>Recuperar
                         playlists</a>
                     </th>
                   </tr>
                   <tr>
                     <th>
-                      <a class="text-muted text-menu" href="https://www.spotify.com/br/account/subscription/receipt/">
-                        <i class="fas fa-receipt menu-icons"></i>Recibos</a>
+                      <a class="text-muted p-4" href="https://www.spotify.com/br/account/subscription/receipt/">
+                        <i class="fas fa-receipt mr-4 my-3"></i>Recibos</a>
                     </th>
                   </tr>
                   <tr>
                     <th>
-                      <a class="text-muted text-menu" href="https://www.spotify.com/br/account/apps/">
-                        <i class="fas fa-puzzle-piece menu-icons"></i>Aplicativos</a>
+                      <a class="text-muted p-4" href="https://www.spotify.com/br/account/apps/">
+                        <i class="fas fa-puzzle-piece mr-4 my-3"></i>Aplicativos</a>
                     </th>
                   </tr>
                   <tr>
                     <th>
-                      <a class="text-muted text-menu" href="https://www.spotify.com/br/redeem/">
-                        <i class="fas fa-redo-alt menu-icons"></i>Resgatar</a>
+                      <a class="text-muted p-4" href="https://www.spotify.com/br/redeem/">
+                        <i class="fas fa-redo-alt mr-4 my-3"></i>Resgatar</a>
                     </th>
                   </tr>
                 </tbody>
@@ -125,7 +125,7 @@
           <!-- Content -->
           <div class="col-9 bg-white p-4">
             <div class="container">
-              <p class="text-black fw-bold py-3" style="font-size: 3rem;">
+              <p class="text-black fw-bold fs-1 py-3">
                 Visão geral da conta
               </p>
               <div class="col">
@@ -156,14 +156,14 @@
               <a type="button" href="https://www.spotify.com/br/account/profile/" class="btn btn-outline-secondary btn-lg btn-grey-spotify">
                 EDITAR PERFIL
               </a>
-              <p class="text-black fw-bold fs-4 pb-2" style="padding-top: 4rem">
+              <p class="text-black fw-bold fs-4 pt-5 pb-2">
                 Seu Plano
               </p>
               <div class="card">
                 <div class="container bg-premium px-4">
                   <div class="row">
                     <div class="col-6">
-                      <p class="fw-bold pt-5 pb-5 fs-1" style="padding-top: 4rem">
+                      <p class="fw-bold fs-1 py-5">
                         Spotify Premium Família
                       </p>
                     </div>
@@ -191,7 +191,7 @@
               <a type="button" href="https://www.spotify.com/br/account/profile/" class="btn btn-outline-secondary btn-lg btn-grey-spotify mt-4">
                 MUDAR DE PLANO
               </a>
-              <p class="text-black fw-bold fs-4 pb-2" style="padding-top: 4rem">
+              <p class="text-black fw-bold fs-4 pt-5 pb-2">
                 Saia em qualquer lugar
               </p>
               <p>
@@ -206,7 +206,7 @@
                   parceiro, confira o manual do fabricante do dispositivo.
                 </div>
               </div>
-              <a type="button" href="https://www.spotify.com/br/account/profile/" class="btn btn-outline-secondary btn-lg btn-grey-spotify mt-4" style="margin-bottom: 6rem">
+              <a type="button" href="https://www.spotify.com/br/account/profile/" class="btn btn-outline-secondary btn-lg btn-grey-spotify mt-4 mb-5">
                 SAIR DE TODOS OS DISPOSITIVOS
               </a>
             </div>

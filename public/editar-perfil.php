@@ -19,7 +19,7 @@
   <?php include __DIR__ . '/../layouts/logged/header.php' ?>
   <!-- / Header -->
 
-  <div class="bg-degrade">
+  <div class="bg-gradient-dark">
     <!-- Profile -->
     <section>
       <div class="container">
@@ -34,69 +34,69 @@
                 <tbody>
                   <tr>
                     <th>
-                      <a class="text-muted text-menu" href="perfil.php"><i class="fas fa-home menu-icons"></i>Visão geral da
+                      <a class="text-muted p-4" href="perfil.php"><i class="fas fa-home mr-4 my-3"></i>Visão geral da
                         conta</a>
                     </th>
                   </tr>
                   <tr>
                     <th>
-                      <a class="text-muted text-menu" href="https://www.spotify.com/br/account/subscription/change/">
-                        <i class="fas fa-credit-card menu-icons"></i>Planos
+                      <a class="text-muted p-4" href="https://www.spotify.com/br/account/subscription/change/">
+                        <i class="fas fa-credit-card mr-4 my-3"></i>Planos
                         disponíveis</a>
                     </th>
                   </tr>
                   <tr>
                     <th>
-                      <a class="text-muted text-menu" href="https://www.spotify.com/br/account/family/">
-                        <i class="fas fa-users menu-icons"></i>Premium Família</a>
+                      <a class="text-muted p-4" href="https://www.spotify.com/br/account/family/">
+                        <i class="fas fa-users mr-4 my-3"></i>Premium Família</a>
                     </th>
                   </tr>
                   <tr>
                     <th>
-                      <a class="text-white text-menu" href="editar-perfil.php">
-                        <i class="fas fa-pencil-alt menu-icons"></i>Editar perfil</a>
+                      <a class="text-white p-4" href="editar-perfil.php">
+                        <i class="fas fa-pencil-alt mr-4 my-3"></i>Editar perfil</a>
                     </th>
                   </tr>
                   <tr>
                     <th>
-                      <a class="text-muted text-menu" href="https://www.spotify.com/br/account/change-password/">
-                        <i class="fas fa-lock menu-icons"></i>Mudar senha</a>
+                      <a class="text-muted p-4" href="https://www.spotify.com/br/account/change-password/">
+                        <i class="fas fa-lock mr-4 my-3"></i>Mudar senha</a>
                     </th>
                   </tr>
                   <tr>
                     <th>
-                      <a class="text-muted text-menu" href="https://www.spotify.com/br/account/notifications/"><i class="fas fa-bell menu-icons"></i>Configurar
+                      <a class="text-muted p-4" href="https://www.spotify.com/br/account/notifications/"><i class="fas fa-bell mr-4 my-3"></i>Configurar
                         notificações</a>
                     </th>
                   </tr>
                   <tr>
                     <th>
-                      <a class="text-muted text-menu" href="https://www.spotify.com/br/account/recover-playlists/"><i class="fas fa-lock menu-icons"></i>Configurações de
+                      <a class="text-muted p-4" href="https://www.spotify.com/br/account/recover-playlists/"><i class="fas fa-lock mr-4 my-3"></i>Configurações de
                         privacidade</a>
                     </th>
                   </tr>
                   <tr>
                     <th>
-                      <a class="text-muted text-menu" href="https://www.spotify.com/br/account/recover-playlists/"><i class="fas fa-redo-alt menu-icons"></i>Recuperar
+                      <a class="text-muted p-4" href="https://www.spotify.com/br/account/recover-playlists/"><i class="fas fa-redo-alt mr-4 my-3"></i>Recuperar
                         playlists</a>
                     </th>
                   </tr>
                   <tr>
                     <th>
-                      <a class="text-muted text-menu" href="https://www.spotify.com/br/account/subscription/receipt/">
-                        <i class="fas fa-receipt menu-icons"></i>Recibos</a>
+                      <a class="text-muted p-4" href="https://www.spotify.com/br/account/subscription/receipt/">
+                        <i class="fas fa-receipt mr-4 my-3"></i>Recibos</a>
                     </th>
                   </tr>
                   <tr>
                     <th>
-                      <a class="text-muted text-menu" href="https://www.spotify.com/br/account/apps/">
-                        <i class="fas fa-puzzle-piece menu-icons"></i>Aplicativos</a>
+                      <a class="text-muted p-4" href="https://www.spotify.com/br/account/apps/">
+                        <i class="fas fa-puzzle-piece mr-4 my-3"></i>Aplicativos</a>
                     </th>
                   </tr>
                   <tr>
                     <th>
-                      <a class="text-muted text-menu" href="https://www.spotify.com/br/redeem/">
-                        <i class="fas fa-redo-alt menu-icons"></i>Resgatar</a>
+                      <a class="text-muted p-4" href="https://www.spotify.com/br/redeem/">
+                        <i class="fas fa-redo-alt mr-4 my-3"></i>Resgatar</a>
                     </th>
                   </tr>
                 </tbody>
@@ -108,7 +108,7 @@
           <!-- Form -->
           <div class="col-9 bg-white p-4">
             <div class="container">
-              <p class="text-black fw-bold py-2" style="font-size: 3rem;">
+              <p class="text-black fw-bold fs-1 py-2">
                 Editar perfil
               </p>
 
@@ -190,8 +190,8 @@
                   </label>
                 </div>
                 <hr>
-                <div style="margin-bottom: 7.5rem; text-align: right">
-                  <a href="perfil.php" role="button" class="btn-cancelar mx-4">CANCELAR</a>
+                <div class="text-right mb-5">
+                  <a href="perfil.php" role="button" class="btn-cancelar mx-4 p-4">CANCELAR</a>
                   <button data-bs-toggle="modal" data-bs-target="#myModal" type="submit" class="btn rounded-pill btn-spotify">SALVAR PERFIL</button>
                 </div>
               </form>
@@ -210,6 +210,7 @@
       <div class="modal-content">
         <div class="d-flex justify-content-center">
           <div class="spinner-border text-success" role="status">
+
           </div>
         </div>
       </div>
