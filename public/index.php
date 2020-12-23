@@ -58,7 +58,7 @@
     <div class="bg-dark-pink p-5">
         <div class="row">
             <div class="col-4 m-5">
-                <div class="colored-box mt-4">
+                <div class="colored-box mt-5">
                     <div class="retrospectiva bg-green-cyan text-dark-pink fw-bold fs-1 pl-5 ml-5">
                         <p>Retrospectiva</p>
                         <p>2020</p>
@@ -76,7 +76,7 @@
                     <p class="text-green-cyan fw-bold m-4">
                         Descubra os artistas, músicas e podcasts que te ajudaram a sobreviver ao ano mais longo da história.
                     </p>
-                    <a type="button" href="https://spotify.com/wrapped?v=3f148e4a-0e3d-11eb-adc1-0242ac120002&_ga=2.198141039.1342819973.1608673385-762130387.1599533115" class="btn btn-lg btn-green-cyan-spotify m-4">
+                    <a type="button" href="https://spotify.com/wrapped?v=3f148e4a-0e3d-11eb-adc1-0242ac120002&_ga=2.198141039.1342819973.1608673385-762130387.1599533115" class="btn btn-lg btn-green-cyan-spotify mx-4">
                         CONFIRA SUA RETROSPECTIVA
                     </a>
                 </div>

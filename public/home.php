@@ -23,7 +23,7 @@
     <div class="bg-dark-pink p-5">
         <div class="row">
             <div class="col-4 m-5">
-                <div class="colored-box mt-4">
+                <div class="colored-box mt-5">
                     <div class="retrospectiva bg-green-cyan text-dark-pink fw-bold fs-1 pl-5 ml-5">
                         <p>Retrospectiva</p>
                         <p>2020</p>
@@ -41,7 +41,7 @@
                     <p class="text-green-cyan fw-bold m-4">
                         Descubra os artistas, músicas e podcasts que te ajudaram a sobreviver ao ano mais longo da história.
                     </p>
-                    <a type="button" href="https://spotify.com/wrapped?v=3f148e4a-0e3d-11eb-adc1-0242ac120002&_ga=2.198141039.1342819973.1608673385-762130387.1599533115" class="btn btn-lg btn-green-cyan-spotify m-4">
+                    <a type="button" href="https://spotify.com/wrapped?v=3f148e4a-0e3d-11eb-adc1-0242ac120002&_ga=2.198141039.1342819973.1608673385-762130387.1599533115" class="btn btn-lg btn-green-cyan-spotify mx-4">
                         CONFIRA SUA RETROSPECTIVA
                     </a>
                 </div>
@@ -52,11 +52,11 @@
 
     <!-- É música que você quer? -->
     <div class="bg-gradient-pastel pt-5">
-        <div class="bg-gradient-pastel-cover">
-            <div class="row my-5">
-                <div class="col-4 my-5">
-                    <div class="container m-5">
-                        <p class="text-white fw-bold m-5 fs-1">
+        <div class="bg-gradient-pastel-cover pt-5">
+            <div class="row py-5">
+                <div class="col-4 py-5">
+                    <div class="container m-5 pt-1">
+                        <p class="text-white fw-bold mt-5 mx-5 fs-1">
                             É música que você quer?
                         </p>
                         <p class="text-white fw-bold mx-5 fs-5">
@@ -95,7 +95,7 @@
                     </div>
                 </div>
             </div>
-            <div class="py-5 pl-5 text-center">
+            <div class="pb-5 pl-5 text-center">
                 <img src="/assets/img/arrow.gif" width="45">
             </div>
         </div>
@@ -104,24 +104,24 @@
 
     <!-- Aproveite ao máximo o Spotify -->
     <div class="m-5">
-        <div class="row mx-3 my-5">
-            <p class="text-black fw-bold fs-1">Aproveite ao máximo o Spotify</p>
+        <div class="row pt-5 mx-3 my-3">
+            <p class="text-black fw-bolder fs-1">Aproveite ao máximo o Spotify</p>
             <div class="col">
-                <p class="text-black fs-4 fw-bold">Gerencie sua conta</p>
+                <p class="text-black fs-4 fw-bolder">Gerencie sua conta</p>
                 <p class="fw-bold">Edite seu perfil, altere sua senha e atualize suas informações de pagamento.</p>
             </div>
 
             <div class="col">
-                <p class="text-black fs-4 fw-bold">Baixe nosso aplicativo gratuito</P>
+                <p class="text-black fs-4 fw-bolder">Baixe nosso aplicativo gratuito</P>
                 <p class="fw-bold">Escute facilmente as músicas que você adora. Baixe o aplicativo do Spotify no seu computador.</p>
             </div>
 
             <div class="col">
-                <p class="text-black fs-4 fw-bold">Ouça na web</p>
-                <p class="fw-bold">Para ouvir e compartilhar música sem baixar o aplicativo, basta acessar play.spotify.com no seu navegador.</p>
+                <p class="text-black fs-4 fw-bolder">Ouça na web</p>
+                <p class="fw-bold">Para ouvir e compartilhar música sem baixar o aplicativo, basta acessar <a href="https://play.spotify.com/?_ga=2.1008369.1342819973.1608673385-762130387.1599533115">play.spotify.com</a> no seu navegador.</p>
             </div>
         </div>
-        <div class="row mx-3 my-4">
+        <div class="row mx-3 pb-5">
             <div class="col">
                 <a href="perfil.php" type="button">GERENCIAR CONTA</a>
             </div>
