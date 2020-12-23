@@ -8,7 +8,7 @@
       </div>
 
       <div class="col-2">
-        <p class="text-muted mt-5" style="font-size: small;"><strong>EMPRESA</strong></p>
+        <p class="text-muted mt-5 text-smaller"><strong>EMPRESA</strong></p>
         <ul class="list-unstyled">
           <li class="pb-3">
             <a class="text-white" href="https://www.spotify.com/br/about-us/contact/">Sobre</a>
@@ -23,7 +23,7 @@
       </div>
 
       <div class="col-2">
-        <p class="text-muted mt-5" style="font-size: small;"><strong>COMUNIDADES</strong></p>
+        <p class="text-muted mt-5 text-smaller"><strong>COMUNIDADES</strong></p>
         <ul class="list-unstyled">
           <li class="pb-3">
             <a class="text-white" href="https://artists.spotify.com/?_ga=2.136255665.1032510707.1607106675-762130387.1599533115">Para Artistas</a>
@@ -44,7 +44,7 @@
       </div>
 
       <div class="col-2">
-        <p class="text-muted mt-5" style="font-size: small;"><strong>LINKS ÚTEIS</strong></p>
+        <p class="text-muted mt-5 text-smaller"><strong>LINKS ÚTEIS</strong></p>
         <ul class="list-unstyled">
           <li class="pb-3">
             <a class="text-white" href="https://support.spotify.com/br/?_ga=2.237360256.1032510707.1607106675-762130387.1599533115">Suporte</a>
@@ -61,28 +61,28 @@
         </ul>
       </div>
 
-      <div class="col-4 mt-5" style="text-align: right;">
+      <div class="col-4 mt-5 text-right">
         <ul class="list-unstyled list-inline">
           <li class="list-inline-item">
             <a class="btn-floating btn-fb text-white" href="https://instagram.com/spotify">
-              <i class="fab fa-instagram social-media-icon"> </i>
+              <i class="fab fa-instagram social-media-icon fs-2 p-3"> </i>
             </a>
           </li>
           <li class="list-inline-item">
             <a class="btn-floating btn-tw text-white" href="https://twitter.com/spotify">
-              <i class="fab fa-twitter social-media-icon"> </i>
+              <i class="fab fa-twitter social-media-icon fs-2 p-3"> </i>
             </a>
           </li>
           <li class="list-inline-item">
             <a class="btn-floating btn-gplus text-white" href="https://www.facebook.com/Spotify">
-              <i class="fab fa-facebook social-media-icon"> </i>
+              <i class="fab fa-facebook social-media-icon fs-2 p-3"> </i>
             </a>
           </li>
         </ul>
       </div>
     </div>
 
-    <div class="list-unstyled list-inline pb-2" style="padding-top: 6rem; font-size: smaller;">
+    <div class="list-unstyled list-inline pt-5 pb-2 text-smaller">
       <div class="row">
         <div class="col-10">
           <li class="list-inline-item">
@@ -111,7 +111,7 @@
             </a>
           </li>
         </div>
-        <div class="col-2" style="text-align: right;">
+        <div class="text-right col-2">
           <li class="list-inline-item">
             <p class="text-muted">
               Brasil
