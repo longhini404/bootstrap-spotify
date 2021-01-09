@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" href="assets/img/brand/spotify-icon.png" />
 
     <link href="/assets/library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <title>Escutar muda tudo - Spotify</title>
 </head>
@@ -27,7 +27,7 @@
                     <p class="text-dark-pink fw-bold my-4">
                         SPOTIFY PREMIUM
                     </p>
-                    <p class="text-big text-dark-pink fw-bold">
+                    <p class="fs-1 text-dark-pink fw-bold">
                         Tá acabando: 3 meses de Premium grátis
                     </p>
                     <p class="text-dark-pink fw-bold">
@@ -40,7 +40,7 @@
                         GANHE 3 MESES GRÁTIS
                     </a>
                     <p class="text-dark-pink text-small">
-                        Somente para o plano Individual. Depois, apenas R$ 16,90/mês. Oferta indisponível para usuários que já experimentaram o Premium. <a class="text-dark-pink text-reset fw-normal" href="https://www.spotify.com/legal/premium-promotional-offer-terms">Sujeita a Termos e Condições.</a> A oferta termina em 31 de dez de 2020.
+                        Somente para o plano Individual. Depois, apenas R$ 16,90/mês. Oferta indisponível para usuários que já experimentaram o Premium. <a class="text-dark-pink text-decoration-none fw-normal" href="https://www.spotify.com/legal/premium-promotional-offer-terms">Sujeita a Termos e Condições.</a> A oferta termina em 31 de dez de 2020.
                     </p>
                 </div>
             </div>
@@ -57,20 +57,20 @@
     <!-- RETROSPECTIVA 2020 -->
     <div class="bg-dark-pink p-5">
         <div class="row">
-            <div class="col-4 m-5">
-                <div class="colored-box mt-5">
-                    <div class="retrospectiva bg-green-cyan text-dark-pink fw-bold fs-1 pl-5 ml-5">
+            <div class="col-5 m-5">
+                <div class="col-12 position-relative rainbow-box mt-5">
+                    <div class="col-9 position-relative green-cyan-box bg-green-cyan text-dark-pink fw-bold fs-1 mx-5 px-5">
                         <p>Retrospectiva</p>
                         <p>2020</p>
                     </div>
                 </div>
             </div>
-            <div class="col-6 mx-5">
+            <div class="col-6">
                 <div class="container m-5">
                     <p class="text-green-cyan fw-light m-4">
                         RETROSPECTIVA 2020
                     </p>
-                    <p class="text-big text-green-cyan fw-bold m-4">
+                    <p class="fs-1 text-green-cyan fw-bold m-4">
                         Veja o que rolou no seu Spotify
                     </p>
                     <p class="text-green-cyan fw-bold m-4">
@@ -93,7 +93,7 @@
                     <p class="text-light-green fw-light m-4">
                         SPOTIFY FREE
                     </p>
-                    <p class="text-big text-light-green fw-bold m-4">
+                    <p class="fs-1 text-light-green fw-bold m-4">
                         Escutar muda tudo
                     </p>
                     <p class="text-light-green fw-bold fs-5 m-4">

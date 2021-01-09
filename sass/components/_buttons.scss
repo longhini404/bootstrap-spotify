@@ -1,59 +1,5 @@
-@import "vars/colors";
+@import "../abstracts/variables";
 
-@import "divs/header";
-@import "divs/footer";
-@import "divs/profile";
-
-@import "blocks/menu";
-@import "blocks/modal";
-@import "blocks/retrospectiva";
-
-// Background
-.bg-gradient-dark {
-  position: relative;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from($bg-grey),
-    color-stop(50%, $bg-blue),
-    to(black)
-  );
-  background-image: linear-gradient($bg-grey, $bg-blue 50%, black);
-  background-repeat: no-repeat;
-}
-
-.bg-gradient-pastel {
-  background-color: $bg-pastel-purple;
-  background-image: linear-gradient(
-    270deg,
-    $bg-pastel-purple 0%,
-    $bg-pastel-pink 100%
-  );
-}
-
-.bg-gradient-pastel-cover {
-  background-image: linear-gradient(transparent, black);
-}
-
-// Background-color
-.bg-black {
-  background-color: black;
-}
-
-.bg-green-cyan {
-  background-color: $green-cyan;
-}
-
-.bg-dark-pink {
-  background-color: $dark-pink;
-}
-
-.bg-blue {
-  background-color: $blue;
-}
-
-// Buttons
 .btn-green {
   box-sizing: border-box;
   border: 0px;
@@ -74,12 +20,11 @@
   position: relative;
   background-color: $green;
   color: white !important;
-}
-
-.btn-green:hover {
-  transition-duration: 0.3s;
-  background-color: $light-green !important;
-  color: white !important;
+  &:hover {
+    transition-duration: 0.3s;
+    background-color: $light-green !important;
+    color: white !important;
+  }
 }
 
 .btn-grey {
@@ -103,13 +48,12 @@
   position: relative;
   background-color: transparent !important;
   color: grey;
-}
-
-.btn-grey:hover {
-  transition-duration: 0.3s;
-  border-color: black !important;
-  color: black !important;
-  font-size: 16px;
+  &:hover {
+    transition-duration: 0.3s;
+    border-color: black !important;
+    color: black !important;
+    font-size: 16px;
+  }
 }
 
 .btn-dark-pink {
@@ -132,12 +76,11 @@
   position: relative;
   background-color: $dark-pink;
   color: white;
-}
-
-.btn-dark-pink:hover {
-  transition-duration: 0.3s;
-  background-color: white !important;
-  color: black !important;
+  &:hover {
+    transition-duration: 0.3s;
+    background-color: white !important;
+    color: black !important;
+  }
 }
 
 .btn-green-cyan {
@@ -160,13 +103,12 @@
   position: relative;
   background-color: $green-cyan;
   color: $dark-pink;
-}
-
-.btn-green-cyan:hover {
-  transition-duration: 0.3s;
-  background-color: white !important;
-  color: $dark-pink !important;
-  font-size: 16px;
+  &:hover {
+    transition-duration: 0.3s;
+    background-color: white !important;
+    color: $dark-pink !important;
+    font-size: 16px;
+  }
 }
 
 .btn-green-blue {
@@ -189,76 +131,18 @@
   position: relative;
   background-color: $green;
   color: $blue !important;
-}
-
-.btn-green-blue:hover {
-  transition-duration: 0.3s;
-  background-color: white !important;
-  color: $blue !important;
-  font-size: 16px;
+  &:hover {
+    transition-duration: 0.3s;
+    background-color: white !important;
+    color: $blue !important;
+    font-size: 16px;
+  }
 }
 
 .btn-cancelar {
   color: grey;
-}
 
-.btn-cancelar:hover {
-  color: black !important;
-}
-
-// Text size
-.text-small {
-  font-size: small;
-}
-
-.text-smaller {
-  font-size: smaller;
-}
-
-.text-big {
-  font-size: 64px !important;
-  line-height: 64px !important;
-}
-
-// Text color
-.text-black {
-  color: black;
-}
-
-.text-light-green {
-  color: $light-green;
-}
-
-.text-dark-pink {
-  color: $dark-pink;
-}
-
-.text-green-cyan {
-  color: $green-cyan;
-}
-
-.text-blue {
-  color: $blue;
-}
-
-.text-reset {
-  text-decoration: underline;
-}
-
-// a
-a {
-  color: $green;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-a:hover {
-  color: $green !important;
-  text-decoration: none !important;
-}
-
-// Checkbox
-.form-check-input:checked {
-  background-color: $green;
-  border-color: $green;
+  &:hover {
+    color: black !important;
+  }
 }

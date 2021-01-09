@@ -22,20 +22,20 @@
     <!-- RETROSPECTIVA 2020 -->
     <div class="bg-dark-pink p-5">
         <div class="row">
-            <div class="col-4 m-5">
-                <div class="colored-box mt-5">
-                    <div class="retrospectiva bg-green-cyan text-dark-pink fw-bold fs-1 pl-5 ml-5">
+            <div class="col-5 m-5">
+                <div class="col-12 position-relative rainbow-box mt-5">
+                    <div class="col-9 position-relative green-cyan-box bg-green-cyan text-dark-pink fw-bold fs-1 mx-5 px-5">
                         <p>Retrospectiva</p>
                         <p>2020</p>
                     </div>
                 </div>
             </div>
-            <div class="col-6 mx-5">
+            <div class="col-6">
                 <div class="container m-5">
                     <p class="text-green-cyan fw-light m-4">
                         RETROSPECTIVA 2020
                     </p>
-                    <p class="text-big text-green-cyan fw-bold m-4">
+                    <p class="fs-1 text-green-cyan fw-bold m-4">
                         Veja o que rolou no seu Spotify
                     </p>
                     <p class="text-green-cyan fw-bold m-4">

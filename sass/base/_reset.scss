@@ -1,0 +1,14 @@
+a {
+  color: $green;
+  font-weight: bold;
+  text-decoration: none;
+  &:hover {
+    color: $green !important;
+    text-decoration: none !important;
+  }
+}
+
+div.spinner-border.text-success {
+  width: 10rem;
+  height: 10rem;
+}

@@ -8,7 +8,7 @@
   <link rel="icon" type="image/png" href="assets/img/brand/spotify-icon.png" />
 
   <link href="/assets/library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
 
   <title>Visão geral da conta - Spotify</title>
 </head>
@@ -21,13 +21,13 @@
   <div class="bg-gradient-dark">
     <!-- Cover -->
     <section>
-      <div class="container bg-premium text-black pt-5">
-        <p class="text-premium fw-bold fs-1">
-          Premium Família
-        </p>
+      <div class="container premium text-black p-5">
         <div class="row">
           <div class="col-8">
-            <p class="lead description-premium fw-normal fw-4 fs-4">
+            <p class="fw-bold fs-1 px-5 pt-5">
+              Premium Família
+            </p>
+            <p class="lead fw-normal fw-4 fs-4 px-5 pb-5">
               6 contas Premium para membros da família que moram debaixo do
               mesmo teto.
             </p>

@@ -1,0 +1,6 @@
+@import "../abstracts/variables";
+
+.form-check-input:checked {
+  background-color: $green;
+  border-color: $green;
+}

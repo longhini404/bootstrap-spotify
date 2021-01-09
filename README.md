@@ -5,8 +5,7 @@
 
 # Sass
 
-- $ cd ~/public/assets
-- $ sass --watch sass:css
+- $ sass --watch sass:public/assets/css
 
 [![](https://github.com/LonghiniDev/missao-spotify/blob/versao3-index/Spotify%20Index.png)](#)
 
