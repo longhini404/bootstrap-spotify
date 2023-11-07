@@ -1,4 +1,4 @@
-# Iniciando o Servidor Web:
+# Setup & Localhost
 
 - $ npm install
 - $ docker-compose up
